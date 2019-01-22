@@ -22,43 +22,44 @@
                 <div class="card" v-for="(card, index) in section.data.rowCards[0]" :key="card.uniqueId" :style="columnWidth">
                     <!-- wwManager:start -->
                     <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="test()" ww-add-after ww-add-before="add(section.data.rowCards[0], index, -1)" @ww-remove="removeCard(section.data.rowCards[0], index)" ww-options>
-                        <div class="wwi wwi-cross"></div>
+                        <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <wwLayoutColumn tag="div" class="team-pic" :ww-list="card.teamPic" ww-default="ww-text">
-                        <wwObject tag="div" :ww-object="teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
-                    </wwLayoutColumn>
-                    <wwLayoutColumn tag="div" class="team-names" :ww-list="card.teamNames" ww-default="ww-text">
-                        <wwObject tag="div" :ww-object="teamName" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
-                    </wwLayoutColumn>
+
+                    <wwObject tag="div" class="team-pic" :ww-object="card.teamPic" v-for="(teamPic, index) in card.teamPic" :key="index" @ww-add></wwObject>
+                    <wwObject tag="div" class="team-names" :ww-object="card.teamNames" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
                 </div>
             </wwLayoutColumn>
 
             <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[1]" @ww-add="addCard(section.data.secondRowCards, $event)" @ww-remove="removeCard(section.data.secondRowCards, $event)">
                 <div class="card" v-for="card in section.data.rowCards[1]" :key="card.uniqueId" :style="columnWidth">
+                    <!-- wwManager:start -->
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="test()" ww-add-after ww-add-before="add(section.data.rowCards[0], index, -1)" @ww-remove="removeCard(section.data.rowCards[0], index)" ww-options>
+                        <div class="wwi wwi-config"></div>
+                    </wwContextMenu>
+                    <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <wwLayoutColumn tag="div" class="team-pic" :ww-list="card.teamPic" ww-default="ww-text">
-                        <wwObject tag="div" class :ww-object="teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
-                    </wwLayoutColumn>
-                    <wwLayoutColumn tag="div" class="team-names" :ww-list="card.teamNames" ww-default="ww-text">
-                        <wwObject tag="div" class :ww-object="teamName" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
-                    </wwLayoutColumn>
+
+                    <wwObject tag="div" class="team-pic" :ww-object="card.teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
+                    <wwObject tag="div" class="team-names" :ww-object="card.teamNames" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
                 </div>
             </wwLayoutColumn>
 
             <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[2]" @ww-add="addCard(section.data.thirdRowCards, $event)" @ww-remove="removeCard(section.data.thirdRowCards, $event)">
                 <div class="card" v-for="card in section.data.rowCards[2]" :key="card.uniqueId" :style="columnWidth">
+                    <!-- wwManager:start -->
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="test()" ww-add-after ww-add-before="add(section.data.rowCards[0], index, -1)" @ww-remove="removeCard(section.data.rowCards[0], index)" ww-options>
+                        <div class="wwi wwi-config"></div>
+                    </wwContextMenu>
+                    <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <wwLayoutColumn tag="div" class="team-pic" :ww-list="card.teamPic" ww-default="ww-text">
-                        <wwObject tag="div" class :ww-object="teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
-                    </wwLayoutColumn>
-                    <wwLayoutColumn tag="div" class="team-names" :ww-list="card.teamNames" ww-default="ww-text">
-                        <wwObject tag="div" class :ww-object="teamName" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
-                    </wwLayoutColumn>
+
+                    <wwObject tag="div" class="team-pic" :ww-object="card.teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
+                    <wwObject tag="div" class="team-names" :ww-object="card.teamNames" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
                 </div>
             </wwLayoutColumn>
             <!-- <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.cards" @ww-add="addCard($event)" @ww-remove="removeCard($event)">
