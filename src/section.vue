@@ -18,49 +18,33 @@
         </div>
 
         <div class="container">
-            <div class="card" v-for="(row, rowindex) in section.data.cards" :key="rowindex" v-bind:style="columnWidth">
-                <div v-for="(col, colindex) in row" :key="colindex">
-                    <div>
-                        <wwObject class="background" v-bind:ww-object="col.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                        <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="col.contents" class="content" @ww-add="add(col.contents, $event)" @ww-remove="remove(col.contents, $event)">
-                            <wwObject v-for="(content, index) in col.contents" :key="index" v-bind:ww-object="content"></wwObject>
-                        </wwLayoutColumn>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="card" v-for="(card, index) in section.data.cards" :key="index" v-bind:style="columnWidth">
-                <div>
-                    <wwObject class="background" v-bind:ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                    <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="card.contents" class="content" @ww-add="add(card.contents, $event)" @ww-remove="remove(card.contents, $event)">
-                        <wwObject v-for="(content, index) in card.contents" :key="index" v-bind:ww-object="content"></wwObject>
-                        <wwObject v-for="content in card.contents" :key="content.uniqueId" v-bind:ww-object="content">{{ content }}</wwObject>
+            <wwLayoutColumn tag="div" :ww-list="section.data.cards" @ww-add="addCard($event)" @ww-remove="removeCard($event)">
+                <div class="card" v-for="card in section.data.cards" :key="card.uniqueId" :style="columnWidth">
+                    <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
+                    <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
+                    <wwLayoutColumn tag="div" class="team-pic" :ww-list="card.teamPic" ww-default="ww-text" @ww-add="add(card.teamPic, $event)" @ww-remove="remove(card.teamPic, $event)">
+                        <wwObject tag="div" class :ww-object="teamPic" v-for="(teamPic, index) in card.teamPic" :key="index"></wwObject>
+                    </wwLayoutColumn>
+                    <wwLayoutColumn tag="div" class="team-names" :ww-list="card.teamNames" ww-default="ww-text" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
+                        <wwObject tag="div" class :ww-object="teamName" v-for="(teamName, index) in card.teamNames" :key="index"></wwObject>
                     </wwLayoutColumn>
                 </div>
-            </div>-->
+            </wwLayoutColumn>
+
             <div class="section-bio">
                 <wwObject class="team-bio-background" v-bind:ww-object="section.data.teamBioBackground" ww-category="background"></wwObject>
-                <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" class @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
+                <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
                     <wwObject v-for="(text, index) in section.data.teamBio" :key="index" :ww-object="text"></wwObject>
                 </wwLayoutColumn>
             </div>
         </div>
 
-        <!--<div class="content-container">
-            <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="activeFeature.contents" class="feature-content" @ww-add="add(activeFeature.contents, $event)" @ww-remove="remove(activeFeature.contents, $event)">
-                <wwObject v-for="content in activeFeature.contents" :key="content.uniqueId" :ww-object="content"></wwObject>
-            </wwLayoutColumn>
-        </div>-->
-        <!--BOTTOM WWOBJS-->
         <!--BOTTOM WWOBJS-->
         <div class="bottom-ww-objs">
             <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="section.data.bottomWwObjs" class="top-ww-obj" @ww-add="add(section.data.bottomWwObjs, $event)" @ww-remove="remove(section.data.bottomWwObjs, $event)">
                 <wwObject v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId" v-bind:ww-object="bottomWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
-        <!--  <div class="content">
-       
-            <wwObject v-bind:ww-object="section.data.helloWorld"></wwObject>
-        </div>-->
     </div>
 </template>
 
@@ -97,6 +81,8 @@ export default {
             //Initialize section data
             this.section.data = this.section.data || {};
             this.section.data.teamBio = this.section.data.teamBio || [];
+            //this.section.data.container = this.section.data.container || [];
+            this.section.data.cards = this.section.data.cards || [];
 
             //Initialize image
             if (!this.section.data.background) {
@@ -107,78 +93,22 @@ export default {
                     }
                 });
             }
+
             if (_.isEmpty(this.section.data.cards)) {
                 this.section.data.cards = [];
-                needUpdate = true;
-            }
-            if (_.isEmpty(this.section.data.tmp)) {
-                this.section.data.tmp = [];
-                needUpdate = true;
-            }
-            if (_.isEmpty(this.section.data.tmp)) {
-                let cards = 4;
-
-                for (let i = 0; i < cards; i++) {
-                    this.section.data.tmp.push({
-                        background: wwLib.wwObject.getDefault({
-                            type: "ww-color",
-                            data: { color: "white" }
-                        }),
-                        contents: []
-                    });
-                }
-                console.log("this.section.data.tmp:", this.section.data.tmp);
                 needUpdate = true;
             }
 
             if (_.isEmpty(this.section.data.cards)) {
                 let row = 3;
-                let col = 1;
 
-                // expand to have the correct amount or rows
                 for (let i = 0; i < row; i++) {
-                    this.section.data.cards.push([]);
-                }
-
-                // expand all rows to have the correct amount of cols
-                for (let i = 0; i < row; i++) {
-                    for (let j = 0; j < col; j++) {
-                        this.section.data.cards[i].push({
-                            background: wwLib.wwObject.getDefault({
-                                type: "ww-color",
-                                data: { color: "grey" }
-                            }),
-                            contents: []
-                        });
-                    }
-                    ++col;
+                    this.section.data.cards.push(this.getNewCard());
                 }
                 console.log(
                     "this.section.data.cards:",
                     this.section.data.cards
                 );
-
-                /*      for (let i = 0; i < row; i++) {
-                    for (
-                        let j = this.section.data.cards[i].length;
-                        j < col;
-                        j++
-                    ) {
-                        this.section.data.cards[i].push(0);
-                    }
-                } */
-                /*  for (let i = 0; i < row; i++) {
-                    for (let j = 0; j < col; j++) {
-                        this.section.data.cards[i].push({
-                            background: wwLib.wwObject.getDefault({
-                                type: "ww-color",
-                                data: { color: "grey" }
-                            }),
-                            contents: []
-                        });
-                    }
-                    ++col;
-                } */
                 needUpdate = true;
             }
             if (!this.section.data.teamBio) {
@@ -208,13 +138,48 @@ export default {
         },
 
         add(list, options) {
-            console.log(list);
+            console.log("inside add", options);
             list.splice(options.index, 0, options.wwObject);
             this.sectionCtrl.update(this.section);
         },
 
         remove(list, options) {
             list.splice(options.index, 1);
+            this.sectionCtrl.update(this.section);
+        },
+
+        getNewCard() {
+            console.log("inside getNewCard");
+            let self = this;
+            let card = {
+                background: wwLib.wwObject.getDefault({
+                    type: "ww-color",
+                    data: { color: "grey" }
+                }),
+                title: wwLib.wwObject.getDefault({
+                    type: "ww-image",
+                    data: {
+                        url: "http://cdn.wewebapp.io/public/images/weweb-wp.png"
+                    }
+                }),
+                teamPic: [],
+                teamNames: [],
+                uniqueId: wwLib.wwUtils.getUniqueId()
+            };
+            return card;
+        },
+
+        addCard(options) {
+            console.log("inside addCard");
+            this.section.data.cards.splice(
+                options.index,
+                0,
+                this.getNewCard(options.wwObject)
+            );
+            this.sectionCtrl.update(this.section);
+        },
+        removeCard(options) {
+            this.section.data.cards.splice(options.index, 1);
             this.sectionCtrl.update(this.section);
         }
     }
@@ -237,6 +202,16 @@ export default {
     width: 100%;
 }
 
+.team_A .card-background {
+    margin-top: 5px;
+    pointer-events: all;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 .team_A .card {
     margin-right: 15px;
     position: relative;
@@ -257,6 +232,12 @@ export default {
     height: 100px;
     width: 100%;
 } */
+
+.team_A .container-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .top-ww-objs,
 .bottom-ww-objs {
