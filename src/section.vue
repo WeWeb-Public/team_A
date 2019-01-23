@@ -18,7 +18,7 @@
         </div>
 
         <div class="card-container">
-            <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[0]">
+            <div class="container-center">
                 <div class="card" v-for="(card, index) in section.data.rowCards[0]" :key="card.uniqueId">
                     <!-- wwManager:start -->
                     <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
@@ -37,9 +37,9 @@
                         <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
                     </div>
                 </div>
-            </wwLayoutColumn>
+            </div>
 
-            <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[1]">
+            <div class="container-center">
                 <div class="card" v-for="card in section.data.rowCards[1]" :key="card.uniqueId">
                     <!-- wwManager:start -->
                     <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[1], index)" @ww-remove="removeCard(section.data.rowCards[1], index)">
@@ -55,9 +55,9 @@
                         <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
                     </div>
                 </div>
-            </wwLayoutColumn>
+            </div>
 
-            <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[2]">
+            <div class="container-center">
                 <div class="card" v-for="card in section.data.rowCards[2]" :key="card.uniqueId">
                     <!-- wwManager:start -->
                     <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
@@ -74,7 +74,7 @@
                         <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
                     </div>
                 </div>
-            </wwLayoutColumn>
+            </div>
             <!-- bottom wrapper box -->
             <div class="section-bio">
                 <wwObject tag="div" class="team-bio-background" :ww-object="section.data.teamBioBackground" ww-category="background" ww-default-object-type="ww-color"></wwObject>
