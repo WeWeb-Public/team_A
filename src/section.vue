@@ -19,19 +19,23 @@
 
         <div class="card-container">
             <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[0]">
+                <!-- <div class="card" v-for="(card, index) in section.data.rowCards[0]" :key="card.uniqueId" @ww-add="addCard(section.data.rowCards[0], $event)" @ww-remove="removeCard(section.data.rowCards[0], $event)"> -->
                 <div class="card" v-for="(card, index) in section.data.rowCards[0]" :key="card.uniqueId">
                     <!-- wwManager:start -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
+                    <!-- <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button"  @ww-add="addCard(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)"> -->
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[0], $event)" @ww-remove="removeCard(section.data.rowCards[0], index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>-->
                     <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                    <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <div class="team-pic" :ww-list="card.teamPics">
-                        <wwObject tag="div" v-for="(teamPic, index) in card.teamPics" :key="index" v-bind:ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, $event)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                    <!-- title here is banner -->
+                    <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject>
+
+                    <div :ww-list="card.teamPics" @ww-add="addPicToTeam(card.teamPics, $event)" @ww-remove="remove(card.teamPics, index)">
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, $event)" @ww-remove="remove(card.teamPics, $event)"></wwObject>
                     </div>
-                    <div class="team-names" :ww-list="card.teamNames">
-                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
+                    <div class="team-names" :ww-list="card.teamNames" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
                     </div>
                 </div>
             </wwLayoutColumn>
@@ -39,38 +43,41 @@
             <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[1]">
                 <div class="card" v-for="card in section.data.rowCards[1]" :key="card.uniqueId">
                     <!-- wwManager:start -->
-                    <!-- <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[1], index)" ww-add-after ww-add-before="add(section.data.rowCards[0], index, -1)" @ww-remove="removeCard(section.data.rowCards[0], index)" ww-options > -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[1], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[1], $event)" @ww-remove="removeCard(section.data.rowCards[1], $event)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                    <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <div class="team-pic" :ww-list="card.teamPics">
-                        <wwObject tag="div" v-for="(teamPic, index) in card.teamPics" :key="index" v-bind:ww-object="teamPic"></wwObject>
+                    <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject>
+                    <div :ww-list="card.teamPics">
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, $event)" @ww-remove="remove(card.teamPics, $event)"></wwObject>
                     </div>
                     <div class="team-names" :ww-list="card.teamNames">
-                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName"></wwObject>
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
                     </div>
                 </div>
             </wwLayoutColumn>
-            <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[2]" @ww-add="addCard(section.data.rowCards[2], $event)" @ww-remove="removeCard(section.data.rowCards[2], $event)">
+
+            <!-- <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[2]" @ww-add="addCard(section.data.rowCards[2], $event)" @ww-remove="removeCard(section.data.rowCards[2], $event)"> -->
+            <wwLayoutColumn class="container-center" tag="div" :ww-list="section.data.rowCards[2]">
                 <div class="card" v-for="card in section.data.rowCards[2]" :key="card.uniqueId">
                     <!-- wwManager:start -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[0], index)" ww-options>
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                    <wwObject tag="div" class="card-title" :ww-object="card.title" ww-default="ww-image"></wwObject>
-                    <div class="team-pic" :ww-list="card.teamPics">
-                        <wwObject tag="div" v-for="(teamPic, index) in card.teamPics" :key="index" v-bind:ww-object="teamPic"></wwObject>
+                    <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject>
+                    <!-- class="team-pic-container" -->
+                    <div :ww-list="card.teamPics">
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, $event)" @ww-remove="remove(card.teamPics, $event)"></wwObject>
                     </div>
                     <div class="team-names" :ww-list="card.teamNames">
-                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName"></wwObject>
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(section.data.bottomWwObjs, $event)"></wwObject>
                     </div>
                 </div>
             </wwLayoutColumn>
+            <!-- bottom wrapper box -->
             <div class="section-bio">
                 <wwObject tag="div" class="team-bio-background" :ww-object="section.data.teamBioBackground" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                 <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
@@ -147,10 +154,10 @@ export default {
                     }
                 });
             }
-            if (_.isEmpty(this.section.data.firstRowCards)) {
+            /*    if (_.isEmpty(this.section.data.firstRowCards)) {
                 this.section.data.firstRowCards = [];
                 needUpdate = true;
-            }
+            } */
             if (!this.section.data.teamBio) {
                 this.section.data.teamBio = wwLib.wwObject.getDefault({
                     type: "ww-text",
@@ -195,7 +202,7 @@ export default {
                     type: "ww-color",
                     data: { color: "grey" }
                 }),
-                title: wwLib.wwObject.getDefault({
+                banner: wwLib.wwObject.getDefault({
                     type: "ww-image",
                     data: {
                         url: "http://cdn.wewebapp.io/public/images/weweb-wp.png"
@@ -210,19 +217,15 @@ export default {
                     type: "ww-image",
                     data: {
                         url: "http://cdn.wewebapp.io/public/images/weweb-wp.png"
-                    },
-                    uniqueId: wwLib.wwUtils.getUniqueId()
+                    }
                 })
             );
             card.teamNames.push(
                 wwLib.wwObject.getDefault({
                     type: "ww-text",
-                    data: {},
-                    uniqueId: wwLib.wwUtils.getUniqueId()
+                    data: {}
                 })
             );
-
-            console.log("card:", card);
             return card;
         },
         getNewTeamPic() {
@@ -234,10 +237,19 @@ export default {
             });
         },
 
-        addCard(list, options) {
-            console.log("inside addCard");
-            list.splice(options.index, 0, this.getNewCard());
-            //this.sectionCtrl.update(this.section);
+        addCard(list, index) {
+            list.splice(index, 0, this.getNewCard());
+            this.sectionCtrl.update(this.section);
+        },
+
+        addCardBefore(list, index) {
+            list.splice(index, 0, this.getNewCard());
+            this.sectionCtrl.update(this.section);
+        },
+
+        addCardAfter(list, index) {
+            list.splice(index, 0, this.getNewCard());
+            this.sectionCtrl.update(this.section);
         },
 
         removeCard(list, options) {
@@ -245,19 +257,9 @@ export default {
             this.sectionCtrl.update(this.section);
         },
         addPicToTeam(list, index) {
-            console.log("inside add pic to team");
             list.push(this.getNewTeamPic());
-            console.log("list:", list);
-            //this.sectionCtrl.update(this.section);//FIXME: strange behavior
-            console.log("after list:", list);
+            //  this.sectionCtrl.update(this.section); //FIXME: strange behavior
         }
-        /* addPicToTeam(list, index) {
-            console.log("inside add pic to team");
-            list.splice(index, 0, this.getNewTeamPic());
-            console.log("list:", list);
-            this.sectionCtrl.update(this.section);
-            console.log("after list:", list);
-        } */
     }
 };
 </script>
@@ -294,7 +296,7 @@ export default {
     left: 0;
 }
 
-.team_A .card-title {
+.team_A .card-banner {
     position: relative;
     width: 100%;
     height: 30%;
@@ -338,7 +340,10 @@ export default {
 .bottom-ww-objs {
     position: relative;
 }
-
+.team_A .team-pic-continer {
+    display: flex;
+    flex-direction: row;
+}
 .team_A .team-pic {
     width: 35%;
     height: 35%;
