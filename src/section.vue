@@ -12,7 +12,7 @@
 
         <!--TOP WWOBJS-->
         <div class="top-ww-objs">
-            <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.topWwObjs" class="top-ww-obj" @ww-add="add(section.data.topWwObjs, index)" @ww-remove="remove(section.data.topWwObjs, index)">
+            <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.topWwObjs" class="top-ww-obj" @ww-add="add(section.data.topWwObjs, $event)" @ww-remove="remove(section.data.topWwObjs, $event)">
                 <wwObject v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId" v-bind:ww-object="topWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -33,12 +33,12 @@
                         <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
 
-                    <div class="team-names" :ww-list="card.teamNames" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)">
-                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
-                    </div>
+                    <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="top-ww-obj" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
+                    </wwLayoutColumn>
                 </div>
             </div>
-
+            <!-- second row -->
             <div class="container-center">
                 <div class="card" v-for="card in section.data.rowCards[1]" :key="card.uniqueId">
                     <!-- wwManager:start -->
@@ -51,12 +51,15 @@
                     <div :ww-list="card.teamPics">
                         <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
-                    <div class="team-names" :ww-list="card.teamNames">
+                    <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="top-ww-obj" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
                         <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
-                    </div>
+                    </wwLayoutColumn>
+                    <!-- <div class="team-names" :ww-list="card.teamNames">
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
+                    </div>-->
                 </div>
             </div>
-
+            <!-- third row -->
             <div class="container-center">
                 <div class="card" v-for="card in section.data.rowCards[2]" :key="card.uniqueId">
                     <!-- wwManager:start -->
@@ -70,9 +73,9 @@
                     <div :ww-list="card.teamPics">
                         <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
-                    <div class="team-names" :ww-list="card.teamNames">
-                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" v-bind:ww-object="teamName" @ww-add="add(card.teamNames, index)" @ww-remove="remove(card.teamNames, index)"></wwObject>
-                    </div>
+                    <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="top-ww-obj" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
+                        <wwObject tag="div" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
+                    </wwLayoutColumn>
                 </div>
             </div>
             <!-- bottom wrapper box -->
@@ -86,7 +89,7 @@
 
         <!--BOTTOM WWOBJS-->
         <div class="bottom-ww-objs">
-            <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.bottomWwObjs" class="top-ww-obj" @ww-add="add(section.data.bottomWwObjs, index)" @ww-remove="remove(section.data.bottomWwObjs, index)">
+            <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.bottomWwObjs" class="top-ww-obj" @ww-add="add(section.data.bottomWwObjs, $event)" @ww-remove="remove(section.data.bottomWwObjs, $event)">
                 <wwObject v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId" v-bind:ww-object="bottomWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -183,9 +186,8 @@ export default {
         },
 
         add(list, options) {
-            console.log("inside add", options);
             list.splice(options.index, 0, options.wwObject);
-            this.sectionCtrl.update(this.section);
+            this.sectionCtrl.update(this.section); //FIXME: the update don't allow for text to be added
         },
 
         remove(list, options) {
@@ -240,13 +242,19 @@ export default {
             this.sectionCtrl.update(this.section);
         },
 
+        /* not tested */
         addCardBefore(list, index) {
-            list.splice(index, 0, this.getNewCard());
-            this.sectionCtrl.update(this.section);
+            if (index > 0) {
+                list.splice(index - 1, 0, this.getNewCard());
+                this.sectionCtrl.update(this.section);
+            } else {
+                list.splice(index, 0, this.getNewCard());
+                this.sectionCtrl.update(this.section);
+            }
         },
-
+        /* not tested */
         addCardAfter(list, index) {
-            list.splice(index, 0, this.getNewCard());
+            list.splice(index + 1, 0, this.getNewCard());
             this.sectionCtrl.update(this.section);
         },
 
@@ -255,19 +263,8 @@ export default {
             this.sectionCtrl.update(this.section);
         },
         addPicToTeam(list, index) {
-            console.log("before list:", JSON.parse(JSON.stringify(list)));
             list.push(this.getNewTeamPic());
-            console.log("after list:", JSON.parse(JSON.stringify(list)));
-            console.log(
-                "before update section:",
-                JSON.parse(JSON.stringify(this.section))
-            );
             this.sectionCtrl.update(this.section); //FIXME: strange behavior can't add to an array
-            console.log("after update list:", JSON.parse(JSON.stringify(list)));
-            console.log(
-                "after update list:",
-                JSON.parse(JSON.stringify(this.section))
-            );
         }
     }
 };
