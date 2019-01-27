@@ -23,7 +23,7 @@
                     <!-- wwManager:start -->
                     <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
                         <div class="wwi wwi-config"></div>
-                    </wwContextMenu>-->
+                    </wwContextMenu>
                     <!-- wwManager:end -->
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <!-- title here is banner -->
@@ -236,6 +236,7 @@ export default {
         },
 
         addCard(list, index) {
+            console.log('addcard')
             list.splice(index, 0, this.getNewCard());
             this.sectionCtrl.update(this.section);
         },
@@ -256,7 +257,9 @@ export default {
         },
         addPicToTeam(list, index) {
             console.log("before list:", JSON.parse(JSON.stringify(list)));
-            list.push(this.getNewTeamPic());
+            let pic = this.getNewTeamPic();
+            pic.lalala = "lalal";
+            list.push(pic);
             console.log("after list:", JSON.parse(JSON.stringify(list)));
             console.log(
                 "before update section:",
