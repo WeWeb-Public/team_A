@@ -14,7 +14,6 @@ module.exports = function () {
         devtool: 'inline-source-map',
         devServer: {
             contentBase: './dist',
-            "hot": true,
             headers: {
                 "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
                 "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization",
@@ -54,14 +53,12 @@ module.exports = function () {
                 },
                 {
                     test: /\.(png|jpg|gif)$/i,
-                    use: [
-                        {
-                            loader: 'url-loader',
-                            options: {
-                                limit: 8192
-                            }
+                    use: [{
+                        loader: 'url-loader',
+                        options: {
+                            limit: 8192
                         }
-                    ]
+                    }]
                 }
             ]
         },
@@ -88,16 +85,14 @@ module.exports = function () {
 
     try {
         port = parseInt(port);
-    }
-    catch (e) {
+    } catch (e) {
         port = null;
     }
 
     if (port) {
         config.devServer.port = port;
         config.output.publicPath = 'https://localhost:' + port + '/';
-    }
-    else {
+    } else {
         console.log('\x1b[41mPLEASE DEFINE A PORT (ex : --port=8080)\x1b[0m');
         return null;
     }
