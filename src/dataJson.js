@@ -2015,7 +2015,7 @@ let data = {
             "uniqueId": 430281551565.5926,
             "wwVersion": 3,
             "content": {
-                "type": "ww-row",
+                "type": "ww-columns",
                 "data": {
                     "config": {
                         "count": 2,
