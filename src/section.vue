@@ -108,7 +108,7 @@
 <!-- ✨ Here comes the magic ✨ -->
 <script>
 export default {
-    name: "team_A",
+    name: "__COMPONENT_NAME__",
     props: {
         // The section controller object is passed to you.
         sectionCtrl: Object
