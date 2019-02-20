@@ -64,35 +64,34 @@
                 </div>
             </div>
             <!-- third row -->
-            <div class="container-center">
-                <div class="card" v-for="(card, index) in section.data.rowCards[2]" :key="card.uniqueId">
-                    <!-- wwManager:start -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
+            <!-- <div class="container-center"> -->
+            <!-- <div class="card" v-for="(card, index) in section.data.rowCards[2]" :key="card.uniqueId"> -->
+            <!-- wwManager:start -->
+            <!-- <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
                         <div class="wwi wwi-config"></div>
-                    </wwContextMenu>
-                    <!-- wwManager:end -->
-                    <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
-                    <!-- <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject> -->
-                    <div class="card-banner">
+            </wwContextMenu>-->
+            <!-- wwManager:end -->
+            <!-- <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject> -->
+            <!-- <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject> -->
+            <!-- <div class="card-banner">
                         <wwObject tag="div" class="background" :ww-object="card.banner" ww-default="ww-image"></wwObject>
                         <wwObject tag="div" class="title-banner" :ww-object="card.title" ww-default="ww-text"></wwObject>
-                    </div>
-
-                    <div class="team-pic-container" :ww-list="card.teamPics">
+            </div>-->
+            <!-- <div class="team-pic-container" :ww-list="card.teamPics">
                         <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
                         <wwObject tag="div" class="member-names" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
-                    </wwLayoutColumn>
-                </div>
-            </div>
+            </wwLayoutColumn>-->
+            <!-- </div> -->
+            <!--             </div> -->
             <!-- bottom wrapper box -->
             <div class="section-bio">
                 <wwObject tag="div" class="team-bio-background" :ww-object="section.data.teamBioBackground" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                 <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
                     <wwObject v-for="(text, index) in section.data.teamBio" :key="index" :ww-object="text"></wwObject>
                 </wwLayoutColumn>
-            </div>
+            </div>r
         </div>
 
         <!--BOTTOM WWOBJS-->
@@ -133,14 +132,14 @@ export default {
     methods: {
         initData() {
             let needUpdate = false;
-
+            let row = 2
             /* Initialize section data */
             this.section.data = this.section.data || {};
             this.section.data.teamBio = this.section.data.teamBio || [];
             this.section.data.rowCards = this.section.data.rowCards || [];
 
             /* cards initialisation  */
-            while (this.section.data.rowCards.length < 3) {
+            while (this.section.data.rowCards.length < row) {
                 let cards = [];
                 for (
                     let i = 0;
@@ -265,8 +264,9 @@ export default {
         }, */
 
         addCard(list, index) {
-            console.log("list:", list[0]);
-            list.splice(index, 0, list[0]);
+            let newCopie = JSON.parse(JSON.stringify(list[0]))
+            wwLib.wwUtils.changeUniqueIds(newCopie)
+            list.splice(index, 0, newCopie);
             this.sectionCtrl.update(this.section);
         },
 
@@ -416,7 +416,7 @@ export default {
 .team_A .team-pic {
     width: 35%;
     height: 35%;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 5px;
 }
 
