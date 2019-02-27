@@ -21,7 +21,7 @@
             <div class="container-center">
                 <div class="card" v-for="(card, index) in section.data.rowCards[0]" :key="card.uniqueId">
                     <!-- wwManager:start -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addElement(section.data.rowCards[0], index)" @ww-remove="removeCard(section.data.rowCards[0], index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="team-pic-container" :ww-list="card.teamPics">
-                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
 
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
@@ -45,7 +45,7 @@
             <div class="container-center">
                 <div class="card" v-for="(card, index) in section.data.rowCards[1]" :key="card.uniqueId">
                     <!-- wwManager:start -->
-                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[1], index)" @ww-remove="removeCard(section.data.rowCards[1], index)">
+                    <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addElement(section.data.rowCards[1], index)" @ww-remove="removeCard(section.data.rowCards[1], index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
@@ -56,7 +56,7 @@
                         <wwObject tag="div" class="title-banner" :ww-object="card.title" ww-default="ww-text"></wwObject>
                     </div>
                     <div class="team-pic-container" :ww-list="card.teamPics">
-                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
                         <wwObject tag="div" class="member-names" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
@@ -67,7 +67,7 @@
             <!-- <div class="container-center"> -->
             <!-- <div class="card" v-for="(card, index) in section.data.rowCards[2]" :key="card.uniqueId"> -->
             <!-- wwManager:start -->
-            <!-- <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addCard(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
+            <!-- <wwContextMenu v-if="sectionCtrl.getEditMode() == 'CONTENT'" tag="div" class="button" @ww-add="addElement(section.data.rowCards[2], index)" @ww-remove="removeCard(section.data.rowCards[2], index)">
                         <div class="wwi wwi-config"></div>
             </wwContextMenu>-->
             <!-- wwManager:end -->
@@ -78,7 +78,7 @@
                         <wwObject tag="div" class="title-banner" :ww-object="card.title" ww-default="ww-text"></wwObject>
             </div>-->
             <!-- <div class="team-pic-container" :ww-list="card.teamPics">
-                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addPicToTeam(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
                         <wwObject tag="div" class="member-names" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
@@ -115,7 +115,6 @@ export default {
     data() {
         return {
             columnWidth: { width: "calc(25% - 30px)" }
-            //bioText: null
         };
     },
     computed: {
@@ -190,7 +189,7 @@ export default {
 
         add(list, options) {
             list.splice(options.index, 0, options.wwObject);
-            this.sectionCtrl.update(this.section); //FIXME: the update don't allow for text to be added
+            this.sectionCtrl.update(this.section);
         },
 
         remove(list, options) {
@@ -257,21 +256,9 @@ export default {
             });
         },
 
-        /* addCard(list, index) {
-            console.log("addcard");
-            list.splice(index, 0, this.getNewCard());
-            this.sectionCtrl.update(this.section);
-        }, */
-
-        addCard(list, index) {
-            let newCopie = JSON.parse(JSON.stringify(list[0]))
-            wwLib.wwUtils.changeUniqueIds(newCopie)
-            list.splice(index, 0, newCopie);
-            this.sectionCtrl.update(this.section);
-        },
 
         /* not tested */
-        addCardBefore(list, index) {
+        addElementBefore(list, index) {
             if (index > 0) {
                 list.splice(index - 1, 0, this.getNewCard());
                 this.sectionCtrl.update(this.section);
@@ -281,7 +268,7 @@ export default {
             }
         },
         /* not tested */
-        addCardAfter(list, index) {
+        addElementAfter(list, index) {
             list.splice(index + 1, 0, this.getNewCard());
             this.sectionCtrl.update(this.section);
         },
@@ -294,23 +281,14 @@ export default {
                 return;
             }
         },
-        /* mark trix */
-        /* addPicToTeam(list, index) {
-            console.log("before list:", JSON.parse(JSON.stringify(list)));
-            let pic = this.getNewTeamPic();
-            pic.lalala = "lalal";
-            list.push(pic);
-            console.log("after list:", JSON.parse(JSON.stringify(list)));
-            console.log(
-                "before update section:",
-                JSON.parse(JSON.stringify(this.section))
-            );
-            this.sectionCtrl.update(this.section); //FIXME: strange behavior can't add to an array
-        } */
-        addPicToTeam(list, index) {
-            list.splice(index, 0, list[0]);
-            this.sectionCtrl.update(this.section); //FIXME: strange behavior can't add to an array
-        }
+
+        addElement(list, index) {
+            let newCopie = JSON.parse(JSON.stringify(list[0]))
+            wwLib.wwUtils.changeUniqueIds(newCopie)
+            list.splice(index, 0, newCopie);
+            this.sectionCtrl.update(this.section);
+        },
+
     }
 };
 </script>
@@ -362,8 +340,9 @@ export default {
 
 .team_A .card-banner {
     position: relative;
-    width: 100%;
-    height: 30%;
+    width: 90%;
+    height: 50px;
+    margin-bottom: 10%;
     overflow: hidden;
 }
 .team_A .curb_your_expectation {
@@ -414,8 +393,8 @@ export default {
     flex-direction: row;
 }
 .team_A .team-pic {
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
     border-radius: 100%;
     margin: 5px;
 }
@@ -462,6 +441,15 @@ export default {
 }
 
 @media (min-width: 768px) {
+    .team_A .team-pic {
+        width: 35%;
+        height: 35%;
+    }
+    .team_A .card-banner {
+        width: 100%;
+        height: 30%;
+        margin-bottom: 0;
+    }
     .team_A .card {
         position: relative;
         width: 33%;

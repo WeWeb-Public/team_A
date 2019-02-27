@@ -1,13 +1,13 @@
 {
   "teamBio": [
     {
-      "uniqueId": 87748852,
+      "uniqueId": 14592454141,
       "wwVersion": 3,
       "content": {
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-fd4d5fea=\"\">"
+            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -32,7 +32,7 @@
       "new": false
     },
     {
-      "uniqueId": 6484811297,
+      "uniqueId": 8957978179,
       "wwVersion": 3,
       "content": {
         "type": "ww-columns",
@@ -96,7 +96,7 @@
           "columns": [
             {
               "background": {
-                "uniqueId": 245870175,
+                "uniqueId": 4034506026,
                 "wwVersion": 3,
                 "content": {
                   "type": "ww-color",
@@ -132,13 +132,13 @@
               },
               "wwObjects": [
                 {
-                  "uniqueId": 4163741383,
+                  "uniqueId": 13514130946,
                   "wwVersion": 3,
                   "content": {
                     "type": "ww-text",
                     "data": {
                       "text": {
-                        "fr_FR": "<div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\">Une équipe intégrée aux profils complémentaires. Les différents chantiers seront menées de concours et orchestres par une direction de projet transversale.</font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\"><br data-v-fd4d5fea=\"\"></font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\">Pour chaque module, toutes les ressources de JLL internes pourront être mises à contribution, et notamment Études &amp; recherche :</font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\">benchmark, études de marché et partage d'expérience benchmark des utilisateurs sur des projets en cours pour des acteurs aux ambitions</font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\">comparables.</font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\"><br data-v-fd4d5fea=\"\"></font></div><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\">La recherche marché pourra se faire pour sa plus grande partie depuis notre salle immersive NXT.</font></div></span><div data-v-fd4d5fea=\"\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
+                        "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\" style=\"\">Une équipe intégrée aux profils complémentaires.</b><br data-v-ce08abda=\"\"></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><br data-v-ce08abda=\"\"></font></b></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\"><br data-v-ce08abda=\"\"></b></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\">Un point de contact unique</b> pour faciliter les échanges et gérer la confidentialité.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><br data-v-ce08abda=\"\"></span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><b data-v-ce08abda=\"\">Une équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\">&nbsp;Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</span><br data-v-ce08abda=\"\"></div></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
                       },
                       "tag": "div",
                       "align": "",
@@ -188,13 +188,13 @@
       "new": false
     },
     {
-      "uniqueId": 9362689547,
+      "uniqueId": 2316882627,
       "wwVersion": 3,
       "content": {
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-fd4d5fea=\"\">"
+            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -219,7 +219,7 @@
       "new": false
     },
     {
-      "uniqueId": 5447372327,
+      "uniqueId": 10905799139,
       "wwVersion": 3,
       "content": {
         "type": "ww-video",
@@ -252,13 +252,13 @@
       "new": false
     },
     {
-      "uniqueId": 12894106612,
+      "uniqueId": 10644058870,
       "wwVersion": 3,
       "content": {
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-fd4d5fea=\"\">"
+            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -286,7 +286,7 @@
   "headBanner": [
     [
       {
-        "uniqueId": 13147106490,
+        "uniqueId": 15032820410,
         "wwVersion": 3,
         "content": {
           "type": "ww-image",
@@ -352,7 +352,7 @@
     ],
     [
       {
-        "uniqueId": 15200261967,
+        "uniqueId": 10781252322,
         "wwVersion": 3,
         "content": {
           "type": "ww-image",
@@ -416,7 +416,7 @@
         "new": false
       },
       {
-        "uniqueId": 4613688583,
+        "uniqueId": 6854346074,
         "wwVersion": 3,
         "content": {
           "type": "ww-image",
@@ -485,7 +485,7 @@
     [
       {
         "background": {
-          "uniqueId": 14857780007,
+          "uniqueId": 8539454774,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -520,7 +520,7 @@
           "new": false
         },
         "banner": {
-          "uniqueId": 2302676362,
+          "uniqueId": 4855926193,
           "wwVersion": 3,
           "content": {
             "type": "ww-image",
@@ -585,13 +585,13 @@
           "new": false
         },
         "title": {
-          "uniqueId": 208336486,
+          "uniqueId": 11995723265,
           "wwVersion": 3,
           "content": {
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<span data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><b data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font data-v-fd4d5fea=\"\" color=\"#ffffff\"><span data-v-fd4d5fea=\"\" style=\"font-size:0.8rem\">&nbsp;DIRECTION DE PROJET</span></font></span></b><br data-v-fd4d5fea=\"\"></blockquote></span>",
+                "fr_FR": "<span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><b data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:0.8rem\">&nbsp;DIRECTION DE PROJET</span></font></span></b><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></blockquote></span>",
                 "en_GB": "my Title"
               },
               "tag": "h1",
@@ -618,7 +618,7 @@
         },
         "teamPics": [
           {
-            "uniqueId": 9498407210,
+            "uniqueId": 11768059195,
             "wwVersion": 3,
             "content": {
               "type": "ww-image",
@@ -666,7 +666,14 @@
                   "name": "",
                   "options": {}
                 },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACkElEQVQ4T62UvUuyYRTGL78yt0QaAgeDBhFsDkeH/gz/hCDUpoY2W8OlQHCwraFmBwWjFitCITAqGhTzkRyy/DZfrvN2np56P6ZuuH18lPO7r3Odc24bAHQ6ndl0OsVkMgGfrVYLmUwGjUYDb69vMNoGRqMRFhYWEAwG8fj4iNXVVcTjcdjtdiLk6XQ6YVMgYePxWKDD4RCFQkECz87O5ACv14twOCzQ8/NzeU8kEvD7/Zibm4PD4ZAtwOfn5xlhCnx/f8dgMEC/38fJyQlOT08FsLy8DLfbjcvLSxiGgZWVFUQiEUSjUfh8Prhcrr8DmTbXbDbD09MT9vb2eCgCgQAWFxdRLBZFPQ9eWlrC2toa1tfXBf6HQsK4CeNmUKlUwuHhITwej/x2dXUl2XDZbDbMz88jFAohFot9AtVDBSqUQfxvf39fvKvX6+j1elIEwnUxXSo1FVqrrN+pjovVy+VyODg4wMvLi6hSdVYoC/YFSBAhfGqBGHh7e4vt7W3c39+bIFPah9faOmbbaKoKZN8R2u12sbm5iUqlIgdRnW4tnFXlF6DCGEgg+zGdTuP4+NhMld5pyv8FEsbNAnATSL82NjZwfX1tFsCqjt+1G9QCU6EC1T8CWdFkMombmxs5jIvToAVRiELlMB09a7pUyEm5uLhAKpXC3d2dKGGAzq41bTIYbwI5elYgi8GxOzo6QjabRbPZFKDVPwWrj1+A7XZbgOohi8Hm3d3dRT6fFy+/p/u9F9USSdkwDFMh1RFIyNbWFsrlsrxb0/1eaU1ZvOVHq9Uy70Ntl06nI9dTtVqVfvxXuqqUCsVnAuv1+owvehdS0cPDA3Z2dlCr1T4N/xg5rbK2kPUi+T2UP7h+HPgLWfBbaZyN4Z0AAAAASUVORK5CYII="
+                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACkElEQVQ4T62UvUuyYRTGL78yt0QaAgeDBhFsDkeH/gz/hCDUpoY2W8OlQHCwraFmBwWjFitCITAqGhTzkRyy/DZfrvN2np56P6ZuuH18lPO7r3Odc24bAHQ6ndl0OsVkMgGfrVYLmUwGjUYDb69vMNoGRqMRFhYWEAwG8fj4iNXVVcTjcdjtdiLk6XQ6YVMgYePxWKDD4RCFQkECz87O5ACv14twOCzQ8/NzeU8kEvD7/Zibm4PD4ZAtwOfn5xlhCnx/f8dgMEC/38fJyQlOT08FsLy8DLfbjcvLSxiGgZWVFUQiEUSjUfh8Prhcrr8DmTbXbDbD09MT9vb2eCgCgQAWFxdRLBZFPQ9eWlrC2toa1tfXBf6HQsK4CeNmUKlUwuHhITwej/x2dXUl2XDZbDbMz88jFAohFot9AtVDBSqUQfxvf39fvKvX6+j1elIEwnUxXSo1FVqrrN+pjovVy+VyODg4wMvLi6hSdVYoC/YFSBAhfGqBGHh7e4vt7W3c39+bIFPah9faOmbbaKoKZN8R2u12sbm5iUqlIgdRnW4tnFXlF6DCGEgg+zGdTuP4+NhMld5pyv8FEsbNAnATSL82NjZwfX1tFsCqjt+1G9QCU6EC1T8CWdFkMombmxs5jIvToAVRiELlMB09a7pUyEm5uLhAKpXC3d2dKGGAzq41bTIYbwI5elYgi8GxOzo6QjabRbPZFKDVPwWrj1+A7XZbgOohi8Hm3d3dRT6fFy+/p/u9F9USSdkwDFMh1RFIyNbWFsrlsrxb0/1eaU1ZvOVHq9Uy70Ntl06nI9dTtVqVfvxXuqqUCsVnAuv1+owvehdS0cPDA3Z2dlCr1T4N/xg5rbK2kPUi+T2UP7h+HPgLWfBbaZyN4Z0AAAAASUVORK5CYII=",
+                "crop": "97.05950062115487px60.39608073629556p@2.940499378845126px0p",
+                "pos": {
+                  "left": "0%",
+                  "top": "7.177612804736516%",
+                  "width": "100%",
+                  "height": "92.82238719526347%"
+                }
               }
             },
             "link": {
@@ -685,13 +692,13 @@
         ],
         "teamNames": [
           {
-            "uniqueId": 5370798129,
+            "uniqueId": 11359982000,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Thibault Garconnat"
+                  "fr_FR": "Stéphanie Tromeur\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -722,7 +729,7 @@
     [
       {
         "background": {
-          "uniqueId": 7920088248,
+          "uniqueId": 5090384238,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -757,7 +764,7 @@
           "new": false
         },
         "banner": {
-          "uniqueId": 2602260023,
+          "uniqueId": 10867740347,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -792,13 +799,13 @@
           "new": false
         },
         "title": {
-          "uniqueId": 903942721,
+          "uniqueId": 992413205,
           "wwVersion": 3,
           "content": {
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Marché Location et investissement&nbsp;</span></span></font><br data-v-fd4d5fea=\"\"></div>",
+                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager \n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
                 "en_GB": "my Title"
               },
               "tag": "h1",
@@ -832,151 +839,21 @@
         },
         "teamPics": [
           {
-            "uniqueId": 7669139055,
+            "uniqueId": 7599839994,
             "wwVersion": 3,
             "content": {
               "type": "ww-image",
               "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/ERdzBWHvISPIWjIWwZzog67Mk8IiyP1s.png",
+                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/4ep3D7mhxWfNyW7HM3oedAMyKnQl2Cif.png",
                 "alt": {
                   "fr_FR": "webeo",
                   "en_GB": "webeo"
                 },
                 "position": {
-                  "x": -0.14969404016843235,
-                  "y": 19.634555437417973
+                  "x": 0,
+                  "y": 0
                 },
-                "zoom": 3.0768268811310846,
-                "style": {
-                  "borderRadius": 50,
-                  "borderWidth": 0,
-                  "borderColor": "black",
-                  "borderStyle": "none",
-                  "overlay": "",
-                  "filter": "grayscale(1)",
-                  "boxShadow": {
-                    "x": 0,
-                    "y": 0,
-                    "b": 10,
-                    "s": 0,
-                    "c": "rgba(50, 50, 50, 0.75)"
-                  }
-                },
-                "animation": {
-                  "duration": 0,
-                  "delay": 0,
-                  "fn": null,
-                  "opacity": 1,
-                  "scale": 1,
-                  "translateX": 0,
-                  "translateY": 0,
-                  "rotate": 0
-                },
-                "imgSize": {
-                  "w": 1000,
-                  "h": 1000
-                },
-                "hover": {
-                  "name": "",
-                  "options": {}
-                },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAD8UlEQVQ4T22UW28bVRSFv3Nm7IwT27HjuHUSol5olKqUCGhL00gVpaBW4gGBAPECEhJ/jDcE4gEhQdKGa4BWgAqU0oZKaRt8a2zHscdx7PHYMwdmxjEYuqXRXLRnnbXX2nuLQm5F4YfoX8GbUi6dTodKqYJpNkhNJplMT6LrepDwiFBKIQq5KyoAAyEE3ker3eabL6/x9ep1ds02KJA6nDm3wAuXz5OZziCl949C9en4SR5GIXfVf9oHq25XWfnkC75dvUbcGCU2GiEsFZ2uTaneRI6GeOvdN3h26TRCyAFPj4gHOgRo2x1WP/2KlY+WuXjiKC8+8wTReMLnb+2Z5EsV3l/7hamnjvPqmy8zkZoYENlHFsW8V3JwUjGf5+MPlxFbO7xzaYl0ZgbdiIKrcK0m9epD7jzI8sGPN3np7dc5e+4UUv7D0q+0mF8dqOA4DmtXv8e8dZfXLiwyljiArhso16FrNbF2dyiUHvLe59dZfOUSS8+dJRQKDdnzH0CXG2s/UL25zqkTJ4kdmCV9cArluGyVCjTKedy9Gp/duM3xi4ssnj+DEYn4Rg5K9kzxDPHCY7jx06/Uf99gOplCuj2mZ4+A0yWX3USPxFB0uPLzLWbPPMm5C0tEY9FhhkOAtk3+tzt0NrI8lkzT7TqMx+K4PZvKzg6u62KMSNbu3iMzd4iF55eIJBNDxgy5TL2BuX4XGh1mkhlcx0YaY/Q6Fo7VJBw2aFsd7pULpMNh4mefRk0fAN+YQR96kyL9U2hZWPf/RDdtUokMvfYuKmLQs21Uq8FoaoZWq0GtUcGwu4QW5iGTRkjZ19Hvw5W+hjJoj+065LbQLAtHCSLjaW8OadaqGEaIve4eKmRgjEWRhzOI+P80/BegP8TQyuagWGZs9CCh6BQjRoTt7B8o0cbsmBhHZkkcOuQz8wdw2GWvZDEYI690M1dAbu9CpY1TazGZSsOIxNTalLsmE/PHSExNBzL1Yx9UFHLLfQ2DjveS3G6P5oMCI2aH1FjK30KWa5EvbSKSESbm5whH448GzGeDkoPT+ncXKrfXccom0zNH0bUwpXKOxk6R8cMzxOeOoY+ODfXfgGE+uxwAemoITxNJp2XjbD6gWSzijsSIGCPUqmXGpYOWThE+cozIRGJQUbA/+20TAHpAYYTQkSJEtVDDzW4wqbWwXddP1oRAug73sw+JnjxN+vjjSN1BCBUY0+critnvlJQhdBlDl1Gk1FE9G6e4jqxuoumav39dp4fdarLd7GHMLWJMHkTobYRmo4QNuAHj+lZBefJpmoa2v4qEwKltgVlEE44/eh5gz+6iUofRkjMgNX8UXWXTc+u4WPA38F+6E/Ob+Z1DjQAAAABJRU5ErkJggg=="
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": 100,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 1116276765,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-image",
-              "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/Q9sORrs0SaYSqzDmC5l1etzAyM0rzyfX.png",
-                "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
-                },
-                "position": {
-                  "x": -3.59525314233551,
-                  "y": 26.065585281932442
-                },
-                "zoom": -1,
-                "style": {
-                  "borderRadius": 50,
-                  "borderWidth": 0,
-                  "borderColor": "black",
-                  "borderStyle": "none",
-                  "overlay": "",
-                  "filter": "",
-                  "boxShadow": {
-                    "x": 0,
-                    "y": 0,
-                    "b": 10,
-                    "s": 0,
-                    "c": "rgba(50, 50, 50, 0.75)"
-                  }
-                },
-                "animation": {
-                  "duration": 0,
-                  "delay": 0,
-                  "fn": null,
-                  "opacity": 1,
-                  "scale": 1,
-                  "translateX": 0,
-                  "translateY": 0,
-                  "rotate": 0
-                },
-                "imgSize": {
-                  "w": 668,
-                  "h": 1002
-                },
-                "hover": {
-                  "name": "",
-                  "options": {}
-                },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACYElEQVQ4T6WUy0qyURiFlweCEhw16OfPcCbegDcSTvQauorIWSMdKEIETgRxoDhREBFCGuUgopOoOPKAB1RCrfx+1v57d1ulUR9szG+7n73Wet83GwCMRiPr4+MD7+/vkM+npyc0m02Uy2W8vr7i8PAQPp8Pbrcb9XodlmXh7OwMfr8fBwcHsNvtcDqdsAmQsNVqpYDr9Vp98vvNzQ0KhQJsNhu8Xi9cLhceHx/RaDSwv7+PQCCAcDgMj8eDvb29/8DhcKgUmkAq4JrP50gkEnh4eMDx32Mc/TlCrVZTQF7MCwgLBoM4PT3dBIrlz89PBZP18vKCZDKJ6XSqlD8/P6vLqZq/oV1GEgqFvi1LdoRx8Tt/zIcHMpkMcrmcynWxWCjY9nNycvINFIgJ5N98HA4H8vk8otEo+v2+ekegKBSwzpBVFpAJlAIxv0gkoqxStcAEKE7Ue6kyAyZMKsw8uXq9Hs7Pz3F7e6v2TBjPSs6icgcoChn6crnE1dUV0uk0xuPxhlWx/SOQG6ZdAllVqiuVSrpAUgwzQ7GsLhHL20Cq63a7uLi4QLVa3ai4CTVt/5ghsyPw/v4el5eXuLu708VgC4lds23ojnt6UqQo3CCQvVYsFhGPx9FqtXQDb1sWKM9phYPBwBLLMoJvb2+4vr5GKpXCZDLRDS5AUynPUpDOsN/vW6JQ7M5mM8RiMWSzWT0ZJkSKIgo3gL1eTzW2qGN+bBNOBidE2/kaNxMmiglUTc8bOp2OxQ0CCeNqt9sqv0qlstHQuoG/Rs+cFg3cmfJfvNj9l/ELmC7KLxkbx/8BC4lByxvnKPIAAAAASUVORK5CYII="
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": 100,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 4368419514,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-image",
-              "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
-                "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
-                },
-                "position": {
-                  "x": -4.440892098500626e-16,
-                  "y": 20.67270556842918
-                },
-                "zoom": 2.190334310166646,
+                "zoom": 1,
                 "style": {
                   "borderRadius": 50,
                   "borderWidth": 0,
@@ -1010,7 +887,14 @@
                   "name": "",
                   "options": {}
                 },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAE6ElEQVQ4T62U229UZRTFf985c+Y+7bTQTmkpFLmXq02DwUiCoIAYkKhBCAnGBxNDohH1QSIxEhMwBi/RBxOVKCiNRODByC1FIEApN7m2QAttubR0pp2ZtnM5Z+acOeczUxP/AneyX9fae6+1tuB/LnFvcEhKQEr5X2d1g+ajzezbs4eujtvkDR0hBN5AgNq6SSxaspRnVzxP3aQnUFUVgUAiEUJB9CSGpJRiFAwkmXSa/fv203zkKN13O0mPDOMUCiBAVV0EQiVEqqsZXzeRxoULWbR4MeOqx4EQo6SibzgtnSKYhLyZY9tHn3D82DGS8QGk44ySaIog6NMI+TRylkNKL2AjKB9bTnXtBFatXcvylS9QEgohBtLZ4rLYtmTvL01s3/YpRiaNlDZ+j4uZtWFm1gTRjTyxZI7YcJ5YysRynOLQOIpCoLSMOU82sOXjrYhEJiclDvF4nGeeWoSeSY2ClQU8rFpYR2VII9o7yPQKL5MiAQZG8hy+PsjF+2ksBFahgCkFiqJQP3cuIqXnpW07fP3Nt+zc8RkuFUr9XhY31BIih5m3WN5Qx7xZM3H7g0hLZyTaTdOxNna39mM6At2yixdD1TREJpeXqVSKZctWkk4OoAmHKTVhFkytJD44zPzJVdRPnUxFzUSCPi+qIpFWhtTDK7z9XSvXHqZJ5QtIAUJREHouJ7t7enh1zStoaoExQY1FsyL0dfcT9HmYPrEKzRskHPTQMGcGbn8APZdHDHfyRdNZTnWOEM9Y6GYBFIEwcoa813WPzZveIpMcpHFqOZMrfNy49ZgJY8OEy8pQXRqzJpQxrqaKoUSS610xpk8s5+Dxy3TEdHoSBv3DOkVPCMPQZTwe47Ot72GmBpg9PkjfowE6ew3ef+05xkSqME0Tx7EJ+F1Ee/voiyWorQzy5YFWLMumJ5mjayANqoIY6rst86ZJ86EDPOq6xbQKNwcP/006p/H5Oxvx+73kTYNCwcbvLarqMDSSxdFjbNn1Fx5VorjdnGrvxykau+3CMYmikEgm6bx5gSqvxZffHiRSGWHrGy/h9bjI6jnyqRThsJ9AeQVC0bhzp40PfzxCwCXx+DzceJAkWxCIlnMnZTGPRZdmo51Eb55l1+6j1NRO4IN1S7D0LJmkRcitEK6pwBv0YhsGX/1+gosdD3C7BIYtGNYLON4QouX8aVk05WgOs1Fu/PEDJ1o6iBoaOzetRlFUzEEDLavjeEz8Y33oeZt3v29GFTZjSzx0J8xR0DXr1iNaLp6RxS+hCIFWSNPy83Zud/TS2p1hx5srGT95BkpORzGGULWijg77T7Xz68lbhDyC1U+P59CNEaY1LGTdxg2Ic5dbpRCgAIXHV7nyZxMPH/TTHcuyfmkjFZXVjAmGCYS8WHaG35ovsffEHZyCzcyIxutr5pOIPMPU+U/jcmuIlkvnZHFdTXFInG+i7dxp7scM2h/l2PxyIyo25NOU+gQqFl8c6qIjmqO6RGPJvFIWLF2Gv34Fpqvk37ScvXBGFu+kSpvB0z/xsP0ibVGBNCVrl8wm6HWhOVl8qkN8MMHXR+7iUmBKxMu8+gqqG19EGTcfy1uGdECcPnlCOqkM1uMkmVQ7d66d5PjVfjYsrWdK7RiCmkrALVEck77efprOPiBc4qZxRillVTX4py1GVM2moPpGf+o/c0tUNsI+XPgAAAAASUVORK5CYII="
+                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAE6ElEQVQ4T62U229UZRTFf985c+Y+7bTQTmkpFLmXq02DwUiCoIAYkKhBCAnGBxNDohH1QSIxEhMwBi/RBxOVKCiNRODByC1FIEApN7m2QAttubR0pp2ZtnM5Z+acOeczUxP/AneyX9fae6+1tuB/LnFvcEhKQEr5X2d1g+ajzezbs4eujtvkDR0hBN5AgNq6SSxaspRnVzxP3aQnUFUVgUAiEUJB9CSGpJRiFAwkmXSa/fv203zkKN13O0mPDOMUCiBAVV0EQiVEqqsZXzeRxoULWbR4MeOqx4EQo6SibzgtnSKYhLyZY9tHn3D82DGS8QGk44ySaIog6NMI+TRylkNKL2AjKB9bTnXtBFatXcvylS9QEgohBtLZ4rLYtmTvL01s3/YpRiaNlDZ+j4uZtWFm1gTRjTyxZI7YcJ5YysRynOLQOIpCoLSMOU82sOXjrYhEJiclDvF4nGeeWoSeSY2ClQU8rFpYR2VII9o7yPQKL5MiAQZG8hy+PsjF+2ksBFahgCkFiqJQP3cuIqXnpW07fP3Nt+zc8RkuFUr9XhY31BIih5m3WN5Qx7xZM3H7g0hLZyTaTdOxNna39mM6At2yixdD1TREJpeXqVSKZctWkk4OoAmHKTVhFkytJD44zPzJVdRPnUxFzUSCPi+qIpFWhtTDK7z9XSvXHqZJ5QtIAUJREHouJ7t7enh1zStoaoExQY1FsyL0dfcT9HmYPrEKzRskHPTQMGcGbn8APZdHDHfyRdNZTnWOEM9Y6GYBFIEwcoa813WPzZveIpMcpHFqOZMrfNy49ZgJY8OEy8pQXRqzJpQxrqaKoUSS610xpk8s5+Dxy3TEdHoSBv3DOkVPCMPQZTwe47Ot72GmBpg9PkjfowE6ew3ef+05xkSqME0Tx7EJ+F1Ee/voiyWorQzy5YFWLMumJ5mjayANqoIY6rst86ZJ86EDPOq6xbQKNwcP/006p/H5Oxvx+73kTYNCwcbvLarqMDSSxdFjbNn1Fx5VorjdnGrvxykau+3CMYmikEgm6bx5gSqvxZffHiRSGWHrGy/h9bjI6jnyqRThsJ9AeQVC0bhzp40PfzxCwCXx+DzceJAkWxCIlnMnZTGPRZdmo51Eb55l1+6j1NRO4IN1S7D0LJmkRcitEK6pwBv0YhsGX/1+gosdD3C7BIYtGNYLON4QouX8aVk05WgOs1Fu/PEDJ1o6iBoaOzetRlFUzEEDLavjeEz8Y33oeZt3v29GFTZjSzx0J8xR0DXr1iNaLp6RxS+hCIFWSNPy83Zud/TS2p1hx5srGT95BkpORzGGULWijg77T7Xz68lbhDyC1U+P59CNEaY1LGTdxg2Ic5dbpRCgAIXHV7nyZxMPH/TTHcuyfmkjFZXVjAmGCYS8WHaG35ovsffEHZyCzcyIxutr5pOIPMPU+U/jcmuIlkvnZHFdTXFInG+i7dxp7scM2h/l2PxyIyo25NOU+gQqFl8c6qIjmqO6RGPJvFIWLF2Gv34Fpqvk37ScvXBGFu+kSpvB0z/xsP0ibVGBNCVrl8wm6HWhOVl8qkN8MMHXR+7iUmBKxMu8+gqqG19EGTcfy1uGdECcPnlCOqkM1uMkmVQ7d66d5PjVfjYsrWdK7RiCmkrALVEck77efprOPiBc4qZxRillVTX4py1GVM2moPpGf+o/c0tUNsI+XPgAAAAASUVORK5CYII=",
+                "crop": "44.557014201858124px66.83873282226129p@0px16.580633588869347p",
+                "pos": {
+                  "left": "0%",
+                  "top": "0%",
+                  "width": "100%",
+                  "height": "100%"
+                }
               }
             },
             "link": {
@@ -1029,13 +913,13 @@
         ],
         "teamNames": [
           {
-            "uniqueId": 4158334444,
+            "uniqueId": 2054454548,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Sophie Giuliani"
+                  "fr_FR": "Victoire Tellier\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1060,13 +944,13 @@
             "new": false
           },
           {
-            "uniqueId": 12150422304,
+            "uniqueId": 5605772109,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Rodolphe Monnier"
+                  "fr_FR": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1091,44 +975,13 @@
             "new": false
           },
           {
-            "uniqueId": 3631425919,
+            "uniqueId": 4231961545,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Graeme Jackson"
-                },
-                "tag": "div",
-                "align": "",
-                "font": "",
-                "size": "",
-                "color": "",
-                "classes": [],
-                "children": []
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": -1,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 8510001959,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-text",
-              "data": {
-                "text": {
-                  "fr_FR": "<br data-v-fd4d5fea=\"\">"
+                  "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                 },
                 "tag": "div",
                 "align": "",
@@ -1157,7 +1010,7 @@
       },
       {
         "background": {
-          "uniqueId": 7920088248,
+          "uniqueId": 13727590983,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -1192,7 +1045,7 @@
           "new": false
         },
         "banner": {
-          "uniqueId": 2602260023,
+          "uniqueId": 2370112483,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -1227,13 +1080,13 @@
           "new": false
         },
         "title": {
-          "uniqueId": 903942721,
+          "uniqueId": 1648925173,
           "wwVersion": 3,
           "content": {
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Marché Location et investissement&nbsp;</span></span></font><br data-v-fd4d5fea=\"\"></div>",
+                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager\n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
                 "en_GB": "my Title"
               },
               "tag": "h1",
@@ -1267,151 +1120,21 @@
         },
         "teamPics": [
           {
-            "uniqueId": 7669139055,
+            "uniqueId": 3208120805,
             "wwVersion": 3,
             "content": {
               "type": "ww-image",
               "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/ERdzBWHvISPIWjIWwZzog67Mk8IiyP1s.png",
+                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/KefPf5JD79qTCrJo1GYSLxGnBszQcmu0.png",
                 "alt": {
                   "fr_FR": "webeo",
                   "en_GB": "webeo"
                 },
                 "position": {
-                  "x": -0.14969404016843235,
-                  "y": 19.634555437417973
+                  "x": 1.2057776724145148,
+                  "y": 10.245794880811047
                 },
-                "zoom": 3.0768268811310846,
-                "style": {
-                  "borderRadius": 50,
-                  "borderWidth": 0,
-                  "borderColor": "black",
-                  "borderStyle": "none",
-                  "overlay": "",
-                  "filter": "grayscale(1)",
-                  "boxShadow": {
-                    "x": 0,
-                    "y": 0,
-                    "b": 10,
-                    "s": 0,
-                    "c": "rgba(50, 50, 50, 0.75)"
-                  }
-                },
-                "animation": {
-                  "duration": 0,
-                  "delay": 0,
-                  "fn": null,
-                  "opacity": 1,
-                  "scale": 1,
-                  "translateX": 0,
-                  "translateY": 0,
-                  "rotate": 0
-                },
-                "imgSize": {
-                  "w": 1000,
-                  "h": 1000
-                },
-                "hover": {
-                  "name": "",
-                  "options": {}
-                },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAD8UlEQVQ4T22UW28bVRSFv3Nm7IwT27HjuHUSol5olKqUCGhL00gVpaBW4gGBAPECEhJ/jDcE4gEhQdKGa4BWgAqU0oZKaRt8a2zHscdx7PHYMwdmxjEYuqXRXLRnnbXX2nuLQm5F4YfoX8GbUi6dTodKqYJpNkhNJplMT6LrepDwiFBKIQq5KyoAAyEE3ker3eabL6/x9ep1ds02KJA6nDm3wAuXz5OZziCl949C9en4SR5GIXfVf9oHq25XWfnkC75dvUbcGCU2GiEsFZ2uTaneRI6GeOvdN3h26TRCyAFPj4gHOgRo2x1WP/2KlY+WuXjiKC8+8wTReMLnb+2Z5EsV3l/7hamnjvPqmy8zkZoYENlHFsW8V3JwUjGf5+MPlxFbO7xzaYl0ZgbdiIKrcK0m9epD7jzI8sGPN3np7dc5e+4UUv7D0q+0mF8dqOA4DmtXv8e8dZfXLiwyljiArhso16FrNbF2dyiUHvLe59dZfOUSS8+dJRQKDdnzH0CXG2s/UL25zqkTJ4kdmCV9cArluGyVCjTKedy9Gp/duM3xi4ssnj+DEYn4Rg5K9kzxDPHCY7jx06/Uf99gOplCuj2mZ4+A0yWX3USPxFB0uPLzLWbPPMm5C0tEY9FhhkOAtk3+tzt0NrI8lkzT7TqMx+K4PZvKzg6u62KMSNbu3iMzd4iF55eIJBNDxgy5TL2BuX4XGh1mkhlcx0YaY/Q6Fo7VJBw2aFsd7pULpMNh4mefRk0fAN+YQR96kyL9U2hZWPf/RDdtUokMvfYuKmLQs21Uq8FoaoZWq0GtUcGwu4QW5iGTRkjZ19Hvw5W+hjJoj+065LbQLAtHCSLjaW8OadaqGEaIve4eKmRgjEWRhzOI+P80/BegP8TQyuagWGZs9CCh6BQjRoTt7B8o0cbsmBhHZkkcOuQz8wdw2GWvZDEYI690M1dAbu9CpY1TazGZSsOIxNTalLsmE/PHSExNBzL1Yx9UFHLLfQ2DjveS3G6P5oMCI2aH1FjK30KWa5EvbSKSESbm5whH448GzGeDkoPT+ncXKrfXccom0zNH0bUwpXKOxk6R8cMzxOeOoY+ODfXfgGE+uxwAemoITxNJp2XjbD6gWSzijsSIGCPUqmXGpYOWThE+cozIRGJQUbA/+20TAHpAYYTQkSJEtVDDzW4wqbWwXddP1oRAug73sw+JnjxN+vjjSN1BCBUY0+critnvlJQhdBlDl1Gk1FE9G6e4jqxuoumav39dp4fdarLd7GHMLWJMHkTobYRmo4QNuAHj+lZBefJpmoa2v4qEwKltgVlEE44/eh5gz+6iUofRkjMgNX8UXWXTc+u4WPA38F+6E/Ob+Z1DjQAAAABJRU5ErkJggg=="
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": 100,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 1116276765,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-image",
-              "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/Q9sORrs0SaYSqzDmC5l1etzAyM0rzyfX.png",
-                "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
-                },
-                "position": {
-                  "x": -3.59525314233551,
-                  "y": 26.065585281932442
-                },
-                "zoom": -1,
-                "style": {
-                  "borderRadius": 50,
-                  "borderWidth": 0,
-                  "borderColor": "black",
-                  "borderStyle": "none",
-                  "overlay": "",
-                  "filter": "",
-                  "boxShadow": {
-                    "x": 0,
-                    "y": 0,
-                    "b": 10,
-                    "s": 0,
-                    "c": "rgba(50, 50, 50, 0.75)"
-                  }
-                },
-                "animation": {
-                  "duration": 0,
-                  "delay": 0,
-                  "fn": null,
-                  "opacity": 1,
-                  "scale": 1,
-                  "translateX": 0,
-                  "translateY": 0,
-                  "rotate": 0
-                },
-                "imgSize": {
-                  "w": 668,
-                  "h": 1002
-                },
-                "hover": {
-                  "name": "",
-                  "options": {}
-                },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACYElEQVQ4T6WUy0qyURiFlweCEhw16OfPcCbegDcSTvQauorIWSMdKEIETgRxoDhREBFCGuUgopOoOPKAB1RCrfx+1v57d1ulUR9szG+7n73Wet83GwCMRiPr4+MD7+/vkM+npyc0m02Uy2W8vr7i8PAQPp8Pbrcb9XodlmXh7OwMfr8fBwcHsNvtcDqdsAmQsNVqpYDr9Vp98vvNzQ0KhQJsNhu8Xi9cLhceHx/RaDSwv7+PQCCAcDgMj8eDvb29/8DhcKgUmkAq4JrP50gkEnh4eMDx32Mc/TlCrVZTQF7MCwgLBoM4PT3dBIrlz89PBZP18vKCZDKJ6XSqlD8/P6vLqZq/oV1GEgqFvi1LdoRx8Tt/zIcHMpkMcrmcynWxWCjY9nNycvINFIgJ5N98HA4H8vk8otEo+v2+ekegKBSwzpBVFpAJlAIxv0gkoqxStcAEKE7Ue6kyAyZMKsw8uXq9Hs7Pz3F7e6v2TBjPSs6icgcoChn6crnE1dUV0uk0xuPxhlWx/SOQG6ZdAllVqiuVSrpAUgwzQ7GsLhHL20Cq63a7uLi4QLVa3ai4CTVt/5ghsyPw/v4el5eXuLu708VgC4lds23ojnt6UqQo3CCQvVYsFhGPx9FqtXQDb1sWKM9phYPBwBLLMoJvb2+4vr5GKpXCZDLRDS5AUynPUpDOsN/vW6JQ7M5mM8RiMWSzWT0ZJkSKIgo3gL1eTzW2qGN+bBNOBidE2/kaNxMmiglUTc8bOp2OxQ0CCeNqt9sqv0qlstHQuoG/Rs+cFg3cmfJfvNj9l/ELmC7KLxkbx/8BC4lByxvnKPIAAAAASUVORK5CYII="
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": 100,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 4368419514,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-image",
-              "data": {
-                "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
-                "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
-                },
-                "position": {
-                  "x": -4.440892098500626e-16,
-                  "y": 20.67270556842918
-                },
-                "zoom": 2.190334310166646,
+                "zoom": 1,
                 "style": {
                   "borderRadius": 50,
                   "borderWidth": 0,
@@ -1445,7 +1168,14 @@
                   "name": "",
                   "options": {}
                 },
-                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAE6ElEQVQ4T62U229UZRTFf985c+Y+7bTQTmkpFLmXq02DwUiCoIAYkKhBCAnGBxNDohH1QSIxEhMwBi/RBxOVKCiNRODByC1FIEApN7m2QAttubR0pp2ZtnM5Z+acOeczUxP/AneyX9fae6+1tuB/LnFvcEhKQEr5X2d1g+ajzezbs4eujtvkDR0hBN5AgNq6SSxaspRnVzxP3aQnUFUVgUAiEUJB9CSGpJRiFAwkmXSa/fv203zkKN13O0mPDOMUCiBAVV0EQiVEqqsZXzeRxoULWbR4MeOqx4EQo6SibzgtnSKYhLyZY9tHn3D82DGS8QGk44ySaIog6NMI+TRylkNKL2AjKB9bTnXtBFatXcvylS9QEgohBtLZ4rLYtmTvL01s3/YpRiaNlDZ+j4uZtWFm1gTRjTyxZI7YcJ5YysRynOLQOIpCoLSMOU82sOXjrYhEJiclDvF4nGeeWoSeSY2ClQU8rFpYR2VII9o7yPQKL5MiAQZG8hy+PsjF+2ksBFahgCkFiqJQP3cuIqXnpW07fP3Nt+zc8RkuFUr9XhY31BIih5m3WN5Qx7xZM3H7g0hLZyTaTdOxNna39mM6At2yixdD1TREJpeXqVSKZctWkk4OoAmHKTVhFkytJD44zPzJVdRPnUxFzUSCPi+qIpFWhtTDK7z9XSvXHqZJ5QtIAUJREHouJ7t7enh1zStoaoExQY1FsyL0dfcT9HmYPrEKzRskHPTQMGcGbn8APZdHDHfyRdNZTnWOEM9Y6GYBFIEwcoa813WPzZveIpMcpHFqOZMrfNy49ZgJY8OEy8pQXRqzJpQxrqaKoUSS610xpk8s5+Dxy3TEdHoSBv3DOkVPCMPQZTwe47Ot72GmBpg9PkjfowE6ew3ef+05xkSqME0Tx7EJ+F1Ee/voiyWorQzy5YFWLMumJ5mjayANqoIY6rst86ZJ86EDPOq6xbQKNwcP/006p/H5Oxvx+73kTYNCwcbvLarqMDSSxdFjbNn1Fx5VorjdnGrvxykau+3CMYmikEgm6bx5gSqvxZffHiRSGWHrGy/h9bjI6jnyqRThsJ9AeQVC0bhzp40PfzxCwCXx+DzceJAkWxCIlnMnZTGPRZdmo51Eb55l1+6j1NRO4IN1S7D0LJmkRcitEK6pwBv0YhsGX/1+gosdD3C7BIYtGNYLON4QouX8aVk05WgOs1Fu/PEDJ1o6iBoaOzetRlFUzEEDLavjeEz8Y33oeZt3v29GFTZjSzx0J8xR0DXr1iNaLp6RxS+hCIFWSNPy83Zud/TS2p1hx5srGT95BkpORzGGULWijg77T7Xz68lbhDyC1U+P59CNEaY1LGTdxg2Ic5dbpRCgAIXHV7nyZxMPH/TTHcuyfmkjFZXVjAmGCYS8WHaG35ovsffEHZyCzcyIxutr5pOIPMPU+U/jcmuIlkvnZHFdTXFInG+i7dxp7scM2h/l2PxyIyo25NOU+gQqFl8c6qIjmqO6RGPJvFIWLF2Gv34Fpqvk37ScvXBGFu+kSpvB0z/xsP0ibVGBNCVrl8wm6HWhOVl8qkN8MMHXR+7iUmBKxMu8+gqqG19EGTcfy1uGdECcPnlCOqkM1uMkmVQ7d66d5PjVfjYsrWdK7RiCmkrALVEck77efprOPiBc4qZxRillVTX4py1GVM2moPpGf+o/c0tUNsI+XPgAAAAASUVORK5CYII="
+                "dataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAE6ElEQVQ4T62U229UZRTFf985c+Y+7bTQTmkpFLmXq02DwUiCoIAYkKhBCAnGBxNDohH1QSIxEhMwBi/RBxOVKCiNRODByC1FIEApN7m2QAttubR0pp2ZtnM5Z+acOeczUxP/AneyX9fae6+1tuB/LnFvcEhKQEr5X2d1g+ajzezbs4eujtvkDR0hBN5AgNq6SSxaspRnVzxP3aQnUFUVgUAiEUJB9CSGpJRiFAwkmXSa/fv203zkKN13O0mPDOMUCiBAVV0EQiVEqqsZXzeRxoULWbR4MeOqx4EQo6SibzgtnSKYhLyZY9tHn3D82DGS8QGk44ySaIog6NMI+TRylkNKL2AjKB9bTnXtBFatXcvylS9QEgohBtLZ4rLYtmTvL01s3/YpRiaNlDZ+j4uZtWFm1gTRjTyxZI7YcJ5YysRynOLQOIpCoLSMOU82sOXjrYhEJiclDvF4nGeeWoSeSY2ClQU8rFpYR2VII9o7yPQKL5MiAQZG8hy+PsjF+2ksBFahgCkFiqJQP3cuIqXnpW07fP3Nt+zc8RkuFUr9XhY31BIih5m3WN5Qx7xZM3H7g0hLZyTaTdOxNna39mM6At2yixdD1TREJpeXqVSKZctWkk4OoAmHKTVhFkytJD44zPzJVdRPnUxFzUSCPi+qIpFWhtTDK7z9XSvXHqZJ5QtIAUJREHouJ7t7enh1zStoaoExQY1FsyL0dfcT9HmYPrEKzRskHPTQMGcGbn8APZdHDHfyRdNZTnWOEM9Y6GYBFIEwcoa813WPzZveIpMcpHFqOZMrfNy49ZgJY8OEy8pQXRqzJpQxrqaKoUSS610xpk8s5+Dxy3TEdHoSBv3DOkVPCMPQZTwe47Ot72GmBpg9PkjfowE6ew3ef+05xkSqME0Tx7EJ+F1Ee/voiyWorQzy5YFWLMumJ5mjayANqoIY6rst86ZJ86EDPOq6xbQKNwcP/006p/H5Oxvx+73kTYNCwcbvLarqMDSSxdFjbNn1Fx5VorjdnGrvxykau+3CMYmikEgm6bx5gSqvxZffHiRSGWHrGy/h9bjI6jnyqRThsJ9AeQVC0bhzp40PfzxCwCXx+DzceJAkWxCIlnMnZTGPRZdmo51Eb55l1+6j1NRO4IN1S7D0LJmkRcitEK6pwBv0YhsGX/1+gosdD3C7BIYtGNYLON4QouX8aVk05WgOs1Fu/PEDJ1o6iBoaOzetRlFUzEEDLavjeEz8Y33oeZt3v29GFTZjSzx0J8xR0DXr1iNaLp6RxS+hCIFWSNPy83Zud/TS2p1hx5srGT95BkpORzGGULWijg77T7Xz68lbhDyC1U+P59CNEaY1LGTdxg2Ic5dbpRCgAIXHV7nyZxMPH/TTHcuyfmkjFZXVjAmGCYS8WHaG35ovsffEHZyCzcyIxutr5pOIPMPU+U/jcmuIlkvnZHFdTXFInG+i7dxp7scM2h/l2PxyIyo25NOU+gQqFl8c6qIjmqO6RGPJvFIWLF2Gv34Fpqvk37ScvXBGFu+kSpvB0z/xsP0ibVGBNCVrl8wm6HWhOVl8qkN8MMHXR+7iUmBKxMu8+gqqG19EGTcfy1uGdECcPnlCOqkM1uMkmVQ7d66d5PjVfjYsrWdK7RiCmkrALVEck77efprOPiBc4qZxRillVTX4py1GVM2moPpGf+o/c0tUNsI+XPgAAAAASUVORK5CYII=",
+                "crop": "96.41588930266404px75.38807625702626p@0px2.060166990675828p",
+                "pos": {
+                  "left": "1.2057776724145153%",
+                  "top": "0%",
+                  "width": "98.79422232758547%",
+                  "height": "100%"
+                }
               }
             },
             "link": {
@@ -1464,13 +1194,13 @@
         ],
         "teamNames": [
           {
-            "uniqueId": 4158334444,
+            "uniqueId": 7691862966,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Sophie Giuliani"
+                  "fr_FR": "Rémi Morel\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1495,13 +1225,13 @@
             "new": false
           },
           {
-            "uniqueId": 12150422304,
+            "uniqueId": 8716891184,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Rodolphe Monnier"
+                  "fr_FR": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1526,44 +1256,13 @@
             "new": false
           },
           {
-            "uniqueId": 3631425919,
+            "uniqueId": 8611989512,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Graeme Jackson"
-                },
-                "tag": "div",
-                "align": "",
-                "font": "",
-                "size": "",
-                "color": "",
-                "classes": [],
-                "children": []
-              }
-            },
-            "link": {
-              "type": "none",
-              "data": {}
-            },
-            "ratio": -1,
-            "paddings": {},
-            "hidden": false,
-            "tags": [],
-            "children": {},
-            "data": {},
-            "anim": {},
-            "new": false
-          },
-          {
-            "uniqueId": 8510001959,
-            "wwVersion": 3,
-            "content": {
-              "type": "ww-text",
-              "data": {
-                "text": {
-                  "fr_FR": "<br data-v-fd4d5fea=\"\">"
+                  "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                 },
                 "tag": "div",
                 "align": "",
@@ -1592,7 +1291,7 @@
       },
       {
         "background": {
-          "uniqueId": 2232174409,
+          "uniqueId": 5979354721,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -1627,7 +1326,7 @@
           "new": false
         },
         "banner": {
-          "uniqueId": 13953827588,
+          "uniqueId": 6647541912,
           "wwVersion": 3,
           "content": {
             "type": "ww-color",
@@ -1662,13 +1361,13 @@
           "new": false
         },
         "title": {
-          "uniqueId": 15010709595,
+          "uniqueId": 9944468305,
           "wwVersion": 3,
           "content": {
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Workplace Strategy</span></font><br data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div>",
+                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris\n</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div>",
                 "en_GB": "my Title"
               },
               "tag": "h1",
@@ -1702,7 +1401,7 @@
         },
         "teamPics": [
           {
-            "uniqueId": 7736935029,
+            "uniqueId": 4035306166,
             "wwVersion": 3,
             "content": {
               "type": "ww-image",
@@ -1769,13 +1468,44 @@
         ],
         "teamNames": [
           {
-            "uniqueId": 8276992073,
+            "uniqueId": 13219227161,
             "wwVersion": 3,
             "content": {
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Élise Guiavarch<br data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"><br data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
+                  "fr_FR": "Vincent Cordonnier&nbsp;<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
+                },
+                "tag": "div",
+                "align": "",
+                "font": "",
+                "size": "",
+                "color": "",
+                "classes": [],
+                "children": []
+              }
+            },
+            "link": {
+              "type": "none",
+              "data": {}
+            },
+            "ratio": -1,
+            "paddings": {},
+            "hidden": false,
+            "tags": [],
+            "children": {},
+            "data": {},
+            "anim": {},
+            "new": false
+          },
+          {
+            "uniqueId": 1865816376,
+            "wwVersion": 3,
+            "content": {
+              "type": "ww-text",
+              "data": {
+                "text": {
+                  "fr_FR": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1805,7 +1535,7 @@
     ]
   ],
   "background": {
-    "uniqueId": 4289301200,
+    "uniqueId": 11997008465,
     "wwVersion": 3,
     "content": {
       "type": "ww-image",
@@ -1870,7 +1600,7 @@
     "new": false
   },
   "teamBioBackground": {
-    "uniqueId": 460637198,
+    "uniqueId": 6667986334,
     "wwVersion": 3,
     "content": {
       "type": "ww-color",
@@ -1906,7 +1636,7 @@
   },
   "topWwObjs": [
     {
-      "uniqueId": 6126171458,
+      "uniqueId": 9830101349,
       "wwVersion": 3,
       "content": {
         "type": "ww-columns",
@@ -1951,7 +1681,7 @@
           "columns": [
             {
               "background": {
-                "uniqueId": 14067067168,
+                "uniqueId": 8263480665,
                 "wwVersion": 3,
                 "content": {
                   "type": "ww-color",
@@ -1987,7 +1717,7 @@
               },
               "wwObjects": [
                 {
-                  "uniqueId": 6126463939,
+                  "uniqueId": 3192657221,
                   "wwVersion": 3,
                   "content": {
                     "type": "ww-image",
@@ -2055,7 +1785,7 @@
             },
             {
               "background": {
-                "uniqueId": 10899982374,
+                "uniqueId": 1708594841,
                 "wwVersion": 3,
                 "content": {
                   "type": "ww-color",
@@ -2091,7 +1821,7 @@
               },
               "wwObjects": [
                 {
-                  "uniqueId": 13990673398,
+                  "uniqueId": 14278020877,
                   "wwVersion": 3,
                   "content": {
                     "type": "ww-image",
