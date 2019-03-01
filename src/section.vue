@@ -219,7 +219,7 @@ export default {
                 title: wwLib.wwObject.getDefault({
                     type: "ww-text",
                     data: {
-                        text: { fr_FR: "Mon titre", en_GB: "my Title" }
+                        text: { fr: "Mon titre", en: "my Title" }
                     }
                 }),
                 teamPics: [],
@@ -239,7 +239,7 @@ export default {
                 wwLib.wwObject.getDefault({
                     type: "ww-text",
                     data: {
-                        text: { fr_FR: "Nom", en_GB: "Name" }
+                        text: { fr: "Nom", en: "Name" }
                     }
                 })
             );

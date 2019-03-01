@@ -7,7 +7,7 @@
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+            "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -138,7 +138,7 @@
                     "type": "ww-text",
                     "data": {
                       "text": {
-                        "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\" style=\"\">Une équipe intégrée aux profils complémentaires.</b><br data-v-ce08abda=\"\"></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><br data-v-ce08abda=\"\"></font></b></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\"><br data-v-ce08abda=\"\"></b></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\">Un point de contact unique</b> pour faciliter les échanges et gérer la confidentialité.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><br data-v-ce08abda=\"\"></span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><b data-v-ce08abda=\"\">Une équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\">&nbsp;Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</span><br data-v-ce08abda=\"\"></div></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
+                        "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\" style=\"\">Une équipe intégrée aux profils complémentaires.</b><br data-v-ce08abda=\"\"></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><br data-v-ce08abda=\"\"></font></b></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\"><br data-v-ce08abda=\"\"></b></font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><b data-v-ce08abda=\"\">Un point de contact unique</b> pour faciliter les échanges et gérer la confidentialité.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><br data-v-ce08abda=\"\"></span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\"><b data-v-ce08abda=\"\">Une équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</span></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: left;\"><span data-v-ce08abda=\"\" style=\"color: rgb(255, 255, 255); font-size: 1.5rem;\">&nbsp;Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</span><br data-v-ce08abda=\"\"></div></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
                       },
                       "tag": "div",
                       "align": "",
@@ -194,7 +194,7 @@
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+            "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -233,7 +233,7 @@
           "showinfo": true,
           "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
           "alt": {
-            "fr_FR": "Une vidéo"
+            "fr": "Une vidéo"
           },
           "videoRatio": 1.7777777777777777
         }
@@ -258,7 +258,7 @@
         "type": "ww-text",
         "data": {
           "text": {
-            "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+            "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
           },
           "tag": "div",
           "align": "",
@@ -293,8 +293,8 @@
           "data": {
             "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
             "alt": {
-              "fr_FR": "webeo",
-              "en_GB": "webeo"
+              "fr": "webeo",
+              "en": "webeo"
             },
             "position": {
               "x": 0,
@@ -359,8 +359,8 @@
           "data": {
             "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
             "alt": {
-              "fr_FR": "webeo",
-              "en_GB": "webeo"
+              "fr": "webeo",
+              "en": "webeo"
             },
             "position": {
               "x": 0,
@@ -423,8 +423,8 @@
           "data": {
             "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
             "alt": {
-              "fr_FR": "webeo",
-              "en_GB": "webeo"
+              "fr": "webeo",
+              "en": "webeo"
             },
             "position": {
               "x": 0,
@@ -527,8 +527,8 @@
             "data": {
               "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/o9rN8jgKrQoNXjHa1My8WLo48AqmE3yE.png",
               "alt": {
-                "fr_FR": "webeo",
-                "en_GB": "webeo"
+                "fr": "webeo",
+                "en": "webeo"
               },
               "position": {
                 "x": 15.933759627521692,
@@ -591,8 +591,8 @@
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><b data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:0.8rem\">&nbsp;DIRECTION DE PROJET</span></font></span></b><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></blockquote></span>",
-                "en_GB": "my Title"
+                "fr": "<span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><b data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:0.8rem\">&nbsp;DIRECTION DE PROJET</span></font></span></b><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></blockquote></span>",
+                "en": "my Title"
               },
               "tag": "h1",
               "align": "",
@@ -625,8 +625,8 @@
               "data": {
                 "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/Q9sORrs0SaYSqzDmC5l1etzAyM0rzyfX.png",
                 "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
+                  "fr": "webeo",
+                  "en": "webeo"
                 },
                 "position": {
                   "x": -2.940499378845126,
@@ -698,7 +698,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Stéphanie Tromeur\n"
+                  "fr": "Stéphanie Tromeur\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -805,8 +805,8 @@
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager \n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
-                "en_GB": "my Title"
+                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager \n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
+                "en": "my Title"
               },
               "tag": "h1",
               "align": "",
@@ -846,8 +846,8 @@
               "data": {
                 "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/4ep3D7mhxWfNyW7HM3oedAMyKnQl2Cif.png",
                 "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
+                  "fr": "webeo",
+                  "en": "webeo"
                 },
                 "position": {
                   "x": 0,
@@ -919,7 +919,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Victoire Tellier\n"
+                  "fr": "Victoire Tellier\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -950,7 +950,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Lorem Ipsum\n"
+                  "fr": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -981,7 +981,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                  "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                 },
                 "tag": "div",
                 "align": "",
@@ -1086,8 +1086,8 @@
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager\n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
-                "en_GB": "my Title"
+                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager\n</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div>",
+                "en": "my Title"
               },
               "tag": "h1",
               "align": "",
@@ -1127,8 +1127,8 @@
               "data": {
                 "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/KefPf5JD79qTCrJo1GYSLxGnBszQcmu0.png",
                 "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
+                  "fr": "webeo",
+                  "en": "webeo"
                 },
                 "position": {
                   "x": 1.2057776724145148,
@@ -1200,7 +1200,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Rémi Morel\n"
+                  "fr": "Rémi Morel\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1231,7 +1231,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Lorem Ipsum\n"
+                  "fr": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1262,7 +1262,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                  "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                 },
                 "tag": "div",
                 "align": "",
@@ -1367,8 +1367,8 @@
             "type": "ww-text",
             "data": {
               "text": {
-                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris\n</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div>",
-                "en_GB": "my Title"
+                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris\n</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div>",
+                "en": "my Title"
               },
               "tag": "h1",
               "align": "",
@@ -1408,8 +1408,8 @@
               "data": {
                 "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/A1VNjkREoYUm65EHc9WYiNkhyOty0FEs.png",
                 "alt": {
-                  "fr_FR": "webeo",
-                  "en_GB": "webeo"
+                  "fr": "webeo",
+                  "en": "webeo"
                 },
                 "position": {
                   "x": -6.724758945950121,
@@ -1474,7 +1474,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Vincent Cordonnier&nbsp;<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
+                  "fr": "Vincent Cordonnier&nbsp;<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
                 },
                 "tag": "div",
                 "align": "",
@@ -1505,7 +1505,7 @@
               "type": "ww-text",
               "data": {
                 "text": {
-                  "fr_FR": "Lorem Ipsum\n"
+                  "fr": "Lorem Ipsum\n"
                 },
                 "tag": "div",
                 "align": "",
@@ -1542,8 +1542,8 @@
       "data": {
         "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/8786Ifz7REjgqDChf94N2hcyz7cenMMd.jpg",
         "alt": {
-          "fr_FR": "webeo",
-          "en_GB": "webeo"
+          "fr": "webeo",
+          "en": "webeo"
         },
         "position": {
           "x": 0,
@@ -1724,8 +1724,8 @@
                     "data": {
                       "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/WQU1fkcl1A9RySRiVDqy4f80Z6vPGJlm.png",
                       "alt": {
-                        "fr_FR": "webeo",
-                        "en_GB": "webeo"
+                        "fr": "webeo",
+                        "en": "webeo"
                       },
                       "position": {
                         "x": 39.61162404409303,
@@ -1828,8 +1828,8 @@
                     "data": {
                       "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/To0avkvibRram8dbUWyWaeUJUnTsn7X8.png",
                       "alt": {
-                        "fr_FR": "webeo",
-                        "en_GB": "webeo"
+                        "fr": "webeo",
+                        "en": "webeo"
                       },
                       "position": {
                         "x": -40.91726618705035,

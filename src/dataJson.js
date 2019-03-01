@@ -9,7 +9,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": ""
+                        "fr": ""
                     },
                     "tag": "div",
                     "align": "",
@@ -39,7 +39,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": ""
+                        "fr": ""
                     },
                     "tag": "div",
                     "align": "",
@@ -69,7 +69,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": ""
+                        "fr": ""
                     },
                     "tag": "div",
                     "align": "",
@@ -99,7 +99,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": "<font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\">Une équipe intégrée aux profils complémentaires. Les différents chantiers seront meneés de concours et orchestres par une direction de projet transversale.<br data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\"></span></font>"
+                        "fr": "<font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\">Une équipe intégrée aux profils complémentaires. Les différents chantiers seront meneés de concours et orchestres par une direction de projet transversale.<br data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\"></span></font>"
                     },
                     "tag": "div",
                     "align": "",
@@ -129,7 +129,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": ""
+                        "fr": ""
                     },
                     "tag": "div",
                     "align": "",
@@ -159,7 +159,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": "<span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><div data-v-4a2b4a8c=\"\">Pour chaque module, toutes les ressources de JLL internes pourront être mises à contribution, et notamment Études &amp; recherche :</div><div data-v-4a2b4a8c=\"\">benchmark, études de marché et partage d'expérience benchmark des utilisateurs sur des projets en cours pour des acteurs aux ambitions</div><div data-v-4a2b4a8c=\"\">comparables.</div><div data-v-4a2b4a8c=\"\"><br></div></font></span>"
+                        "fr": "<span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><div data-v-4a2b4a8c=\"\">Pour chaque module, toutes les ressources de JLL internes pourront être mises à contribution, et notamment Études &amp; recherche :</div><div data-v-4a2b4a8c=\"\">benchmark, études de marché et partage d'expérience benchmark des utilisateurs sur des projets en cours pour des acteurs aux ambitions</div><div data-v-4a2b4a8c=\"\">comparables.</div><div data-v-4a2b4a8c=\"\"><br></div></font></span>"
                     },
                     "tag": "div",
                     "align": "",
@@ -197,7 +197,7 @@ let data = {
                     "showinfo": true,
                     "preview": "https://wewebdev.s3-eu-west-1.amazonaws.com/designs/2/sections/oTDMqrEOtEET8pe0xz4rg5INkzgxQg3c.jpg",
                     "alt": {
-                        "fr_FR": "Une vidéo"
+                        "fr": "Une vidéo"
                     },
                     "videoRatio": 1.7777777777777777
                 }
@@ -221,7 +221,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": "<div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"></font></div><span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\"><div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\">La recherche marché pourra se faire pour sa plus grande partie depuis notre salle immersive NXT.</font></div><div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><br></font></div><div data-v-4a2b4a8c=\"\"></div></span><div data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\"></div>"
+                        "fr": "<div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"></font></div><span data-v-4a2b4a8c=\"\" style=\"font-size:1.5rem\"><div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\">La recherche marché pourra se faire pour sa plus grande partie depuis notre salle immersive NXT.</font></div><div data-v-4a2b4a8c=\"\"><font data-v-4a2b4a8c=\"\" color=\"#ffffff\"><br></font></div><div data-v-4a2b4a8c=\"\"></div></span><div data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\"></div>"
                     },
                     "tag": "div",
                     "align": "",
@@ -251,7 +251,7 @@ let data = {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr_FR": ""
+                        "fr": ""
                     },
                     "tag": "div",
                     "align": "",
@@ -284,8 +284,8 @@ let data = {
                     "data": {
                         "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
                         "alt": {
-                            "fr_FR": "webeo",
-                            "en_GB": "webeo"
+                            "fr": "webeo",
+                            "en": "webeo"
                         },
                         "position": {
                             "x": 0,
@@ -348,8 +348,8 @@ let data = {
                     "data": {
                         "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
                         "alt": {
-                            "fr_FR": "webeo",
-                            "en_GB": "webeo"
+                            "fr": "webeo",
+                            "en": "webeo"
                         },
                         "position": {
                             "x": 0,
@@ -411,8 +411,8 @@ let data = {
                     "data": {
                         "url": "http://cdn.wewebapp.io/public/images/weweb-wp.png",
                         "alt": {
-                            "fr_FR": "webeo",
-                            "en_GB": "webeo"
+                            "fr": "webeo",
+                            "en": "webeo"
                         },
                         "position": {
                             "x": 0,
@@ -513,8 +513,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/o9rN8jgKrQoNXjHa1My8WLo48AqmE3yE.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": 43.60561979360932,
@@ -576,8 +576,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<span data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><ul><li><b data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font color=\"#ffffff\">&nbsp;DIRECTION DE PROJET</font></span></b><br></li></ul></blockquote></span>",
-                                "en_GB": "my Title"
+                                "fr": "<span data-v-4a2b4a8c=\"\" style=\"font-size:0.6rem\"><blockquote data-v-4a2b4a8c=\"\" style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><ul><li><b data-v-4a2b4a8c=\"\" style=\"text-align: initial; font-size: 2rem;\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1rem\"><font color=\"#ffffff\">&nbsp;DIRECTION DE PROJET</font></span></b><br></li></ul></blockquote></span>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -609,8 +609,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/Q9sORrs0SaYSqzDmC5l1etzAyM0rzyfX.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -2.940499378845126,
@@ -672,7 +672,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Thibault Garconnat"
+                                "fr": "Thibault Garconnat"
                             },
                             "tag": "div",
                             "align": "",
@@ -776,8 +776,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<div style=\"text-align: center;\"><span style=\"color: rgb(255, 0, 0); font-size: 20px; text-align: initial;\">Marché Location et investissement&nbsp;</span></div>",
-                                "en_GB": "my Title"
+                                "fr": "<div style=\"text-align: center;\"><span style=\"color: rgb(255, 0, 0); font-size: 20px; text-align: initial;\">Marché Location et investissement&nbsp;</span></div>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -809,8 +809,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/ERdzBWHvISPIWjIWwZzog67Mk8IiyP1s.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": 3.55714282661347,
@@ -872,8 +872,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/Q9sORrs0SaYSqzDmC5l1etzAyM0rzyfX.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -3.59525314233551,
@@ -935,8 +935,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -4.440892098500626e-16,
@@ -998,7 +998,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Sophie Giuliani"
+                                "fr": "Sophie Giuliani"
                             },
                             "tag": "div",
                             "align": "",
@@ -1028,7 +1028,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Rodolphe Monnier"
+                                "fr": "Rodolphe Monnier"
                             },
                             "tag": "div",
                             "align": "",
@@ -1058,7 +1058,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Graeme Jackson"
+                                "fr": "Graeme Jackson"
                             },
                             "tag": "div",
                             "align": "",
@@ -1088,7 +1088,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": ""
+                                "fr": ""
                             },
                             "tag": "div",
                             "align": "",
@@ -1191,8 +1191,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-4a2b4a8c=\"\" color=\"#ff0000\">Workplace Strategy</font><br data-v-4a2b4a8c=\"\"></div>",
-                                "en_GB": "my Title"
+                                "fr": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-4a2b4a8c=\"\" color=\"#ff0000\">Workplace Strategy</font><br data-v-4a2b4a8c=\"\"></div>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -1224,8 +1224,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/A1VNjkREoYUm65EHc9WYiNkhyOty0FEs.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -8.988132855838773,
@@ -1287,7 +1287,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Élise Guiavarch<br data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\">"
+                                "fr": "Élise Guiavarch<br data-v-4a2b4a8c=\"\"><br data-v-4a2b4a8c=\"\">"
                             },
                             "tag": "div",
                             "align": "",
@@ -1391,8 +1391,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\"><font color=\"#ff0000\"><span style=\"font-size:1.25rem\">Technique</span></font></span></div>",
-                                "en_GB": "my Title"
+                                "fr": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\"><font color=\"#ff0000\"><span style=\"font-size:1.25rem\">Technique</span></font></span></div>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -1424,8 +1424,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -4.440892098500626e-16,
@@ -1487,7 +1487,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Thibault Garconnat"
+                                "fr": "Thibault Garconnat"
                             },
                             "tag": "div",
                             "align": "",
@@ -1590,8 +1590,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><span data-v-4a2b4a8c=\"\" style=\"text-align: initial;\"><font data-v-4a2b4a8c=\"\" color=\"#ff0000\"><span style=\"font-size:1.25rem\">Financier / Montage</span></font></span></div>",
-                                "en_GB": "my Title"
+                                "fr": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><span data-v-4a2b4a8c=\"\" style=\"text-align: initial;\"><font data-v-4a2b4a8c=\"\" color=\"#ff0000\"><span style=\"font-size:1.25rem\">Financier / Montage</span></font></span></div>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -1623,8 +1623,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -4.440892098500626e-16,
@@ -1686,7 +1686,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Thibault Garconnat"
+                                "fr": "Thibault Garconnat"
                             },
                             "tag": "div",
                             "align": "",
@@ -1789,8 +1789,8 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><span data-v-4a2b4a8c=\"\" style=\"color: rgb(255, 0, 0); text-align: initial;\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1.25rem\">Transactions / Négociations</span></span></div>",
-                                "en_GB": "my Title"
+                                "fr": "<div data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><span data-v-4a2b4a8c=\"\" style=\"color: rgb(255, 0, 0); text-align: initial;\"><span data-v-4a2b4a8c=\"\" style=\"font-size:1.25rem\">Transactions / Négociations</span></span></div>",
+                                "en": "my Title"
                             },
                             "tag": "div",
                             "align": "",
@@ -1822,8 +1822,8 @@ let data = {
                         "data": {
                             "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/9dPzHjdfwZGN541N7RXvNZK6N59O9VZJ.png",
                             "alt": {
-                                "fr_FR": "webeo",
-                                "en_GB": "webeo"
+                                "fr": "webeo",
+                                "en": "webeo"
                             },
                             "position": {
                                 "x": -4.440892098500626e-16,
@@ -1885,7 +1885,7 @@ let data = {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr_FR": "Thibault Garconnat"
+                                "fr": "Thibault Garconnat"
                             },
                             "tag": "div",
                             "align": "",
@@ -1920,8 +1920,8 @@ let data = {
                 "data": {
                     "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/8786Ifz7REjgqDChf94N2hcyz7cenMMd.jpg",
                     "alt": {
-                        "fr_FR": "webeo",
-                        "en_GB": "webeo"
+                        "fr": "webeo",
+                        "en": "webeo"
                     },
                     "position": {
                         "x": 0,
@@ -2095,8 +2095,8 @@ let data = {
                                 "data": {
                                     "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/WQU1fkcl1A9RySRiVDqy4f80Z6vPGJlm.png",
                                     "alt": {
-                                        "fr_FR": "webeo",
-                                        "en_GB": "webeo"
+                                        "fr": "webeo",
+                                        "en": "webeo"
                                     },
                                     "position": {
                                         "x": 39.61162404409303,
@@ -2195,8 +2195,8 @@ let data = {
                                 "data": {
                                     "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/19/sections/To0avkvibRram8dbUWyWaeUJUnTsn7X8.png",
                                     "alt": {
-                                        "fr_FR": "webeo",
-                                        "en_GB": "webeo"
+                                        "fr": "webeo",
+                                        "en": "webeo"
                                     },
                                     "position": {
                                         "x": -40.91726618705035,
