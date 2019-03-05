@@ -91,7 +91,7 @@
                 <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
                     <wwObject v-for="(text, index) in section.data.teamBio" :key="index" :ww-object="text"></wwObject>
                 </wwLayoutColumn>
-            </div>r
+            </div>
         </div>
 
         <!--BOTTOM WWOBJS-->
