@@ -17,7 +17,8 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">",
+                        "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                     },
                     "align": "",
                     "color": "",
@@ -120,7 +121,8 @@
                                             "font": "",
                                             "size": "",
                                             "text": {
-                                                "fr_FR": "<span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><div data-v-ce08abda=\"\" style=\"text-align: center;\"><span data-v-ce08abda=\"\" style=\"text-align: initial;\"><font data-v-ce08abda=\"\" color=\"#ffffff\" face=\"Arial, Helvetica, sans-serif\"><b data-v-ce08abda=\"\">Une équipe intégrée aux profils complémentaires.</b></font></span></div></span>"
+                                                "fr_FR": "<span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><div data-v-ce08abda=\"\" style=\"text-align: center;\"><span data-v-ce08abda=\"\" style=\"text-align: initial;\"><font data-v-ce08abda=\"\" color=\"#ffffff\" face=\"Arial, Helvetica, sans-serif\"><b data-v-ce08abda=\"\">Une équipe intégrée aux profils complémentaires.</b></font></span></div></span>",
+                                                "fr": "<span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><div data-v-ce08abda=\"\" style=\"text-align: center;\"><span data-v-ce08abda=\"\" style=\"text-align: initial;\"><font data-v-ce08abda=\"\" color=\"#ffffff\" face=\"Arial, Helvetica, sans-serif\"><b data-v-ce08abda=\"\">Une équipe intégrée aux profils complémentaires.</b></font></span></div></span>"
                                             },
                                             "align": "",
                                             "color": "",
@@ -158,7 +160,8 @@
                                             "font": "",
                                             "size": "",
                                             "text": {
-                                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" face=\"Arial, Helvetica, sans-serif\"></font></div><span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><span data-v-ce08abda=\"\" style=\"font-size:1.1rem\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"><b data-v-ce08abda=\"\">Un point de contact unique</b></span><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"> pour faciliter les échanges et gérer la confidentialité.</span><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Une <b data-v-ce08abda=\"\">équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</font></div></font></span></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">\n</font></div></font></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
+                                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" face=\"Arial, Helvetica, sans-serif\"></font></div><span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><span data-v-ce08abda=\"\" style=\"font-size:1.1rem\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"><b data-v-ce08abda=\"\">Un point de contact unique</b></span><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"> pour faciliter les échanges et gérer la confidentialité.</span><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Une <b data-v-ce08abda=\"\">équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</font></div></font></span></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">\n</font></div></font></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>",
+                                                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1.5rem\"><font data-v-ce08abda=\"\" color=\"#ffffff\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" face=\"Arial, Helvetica, sans-serif\"></font></div><span data-v-ce08abda=\"\" style=\"font-size:1.2rem\"><span data-v-ce08abda=\"\" style=\"font-size:1.1rem\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\"><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"><b data-v-ce08abda=\"\">Un point de contact unique</b></span><span data-v-ce08abda=\"\" style=\"font-size: 1.1rem; text-align: initial;\"> pour faciliter les échanges et gérer la confidentialité.</span><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><br data-v-ce08abda=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Une <b data-v-ce08abda=\"\">équipe expérimentée intégrée</b> aux multi-compétences sous la direction d’un directeur de projet.</font></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">Pour chaque étape, les ressources ad hoc de JLL sont mises à contribution.</font></div></font></span></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">\n</font></div></font></span><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ffffff\"></font></div>"
                                             },
                                             "align": "",
                                             "color": "",
@@ -242,7 +245,8 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">",
+                        "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                     },
                     "align": "",
                     "color": "",
@@ -306,7 +310,8 @@
                     "font": "",
                     "size": "",
                     "text": {
-                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                        "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">",
+                        "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                     },
                     "align": "",
                     "color": "",
@@ -342,7 +347,8 @@
                             "size": "",
                             "text": {
                                 "en_GB": "my Title",
-                                "fr_FR": "<div data-v-ce08abda=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\" style=\"font-size: 12.8px; color: rgb(255, 255, 255); text-align: initial;\">DIRECTION PROJET</b></div>"
+                                "fr_FR": "<div data-v-ce08abda=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\" style=\"font-size: 12.8px; color: rgb(255, 255, 255); text-align: initial;\">DIRECTION PROJET</b></div>",
+                                "fr": "<div data-v-ce08abda=\"\" style=\"text-align: center;\"><b data-v-ce08abda=\"\" style=\"font-size: 12.8px; color: rgb(255, 255, 255); text-align: initial;\">DIRECTION PROJET</b></div>"
                             },
                             "align": "",
                             "color": "",
@@ -382,12 +388,12 @@
                                 "fr_FR": "webeo"
                             },
                             "pos": {
-                                "top": "6.686046511627902%",
                                 "left": "0%",
+                                "top": "6.567323934683989%",
                                 "width": "100%",
-                                "height": "50.90697674418605%"
+                                "height": "51.04651162790697%"
                             },
-                            "url": "https://cdn.weweb.app/designs/19/sections/o9rN8jgKrQoNXjHa1My8WLo48AqmE3yE.png",
+                            "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/2/sections/sTHB0gjWyVZ5wqHfJGhlqaWJ9MeIRYga.png",
                             "crop": "99.17355371900827px100p@0px0p",
                             "zoom": 1,
                             "hover": {
@@ -437,8 +443,8 @@
                         "md": {},
                         "sm": null,
                         "xs": {
-                            "left": 50,
-                            "right": 50
+                            "left": 87,
+                            "right": 87
                         }
                     },
                     "uniqueId": 5385876908,
@@ -549,7 +555,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "<span data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\" style=\"\"><b data-v-ce08abda=\"\">Stéphanie Tromeur</b></font></span>"
+                                    "fr_FR": "<span data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\" style=\"\"><b data-v-ce08abda=\"\">Stéphanie Tromeur</b></font></span>",
+                                    "fr": "<span data-v-ce08abda=\"\"><font data-v-ce08abda=\"\" face=\"Arial, Helvetica, sans-serif\" style=\"\"><b data-v-ce08abda=\"\">Stéphanie Tromeur</b></font></span>"
                                 },
                                 "align": "",
                                 "color": "",
@@ -621,7 +628,8 @@
                             "size": "",
                             "text": {
                                 "en_GB": "my Title",
-                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager&nbsp;</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>"
+                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager&nbsp;</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>",
+                                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Transaction manager&nbsp;</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>"
                             },
                             "align": "",
                             "color": "",
@@ -794,7 +802,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Victoire Tellier"
+                                    "fr_FR": "Victoire Tellier",
+                                    "fr": "Victoire Tellier"
                                 },
                                 "align": "",
                                 "color": "",
@@ -825,7 +834,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Lorem Ipsum"
+                                    "fr_FR": "Lorem Ipsum",
+                                    "fr": "Lorem Ipsum"
                                 },
                                 "align": "",
                                 "color": "",
@@ -856,7 +866,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                                    "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">",
+                                    "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                                 },
                                 "align": "",
                                 "color": "",
@@ -926,7 +937,8 @@
                             "size": "",
                             "text": {
                                 "en_GB": "my Title",
-                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>"
+                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>",
+                                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Project Manager</span></span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size: 20px;\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></span></font></div>"
                             },
                             "align": "",
                             "color": "",
@@ -1096,7 +1108,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Rémi Morel"
+                                    "fr_FR": "Rémi Morel",
+                                    "fr": "Rémi Morel"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1127,7 +1140,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Lorem Ipsum"
+                                    "fr_FR": "Lorem Ipsum",
+                                    "fr": "Lorem Ipsum"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1158,7 +1172,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
+                                    "fr_FR": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">",
+                                    "fr": "<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\">"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1228,7 +1243,8 @@
                             "size": "",
                             "text": {
                                 "en_GB": "my Title",
-                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></font></div>"
+                                "fr_FR": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></font></div>",
+                                "fr": "<div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\">Directeur des travaux Tétris</span></font><br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\"></div><div data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\" style=\"text-align: center;\"><font data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" color=\"#ff0000\"><span data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" style=\"font-size:1rem\"><br data-v-ce08abda=\"\"></span></font></div>"
                             },
                             "align": "",
                             "color": "",
@@ -1398,7 +1414,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Vincent Cordonnier<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
+                                    "fr_FR": "Vincent Cordonnier<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">",
+                                    "fr": "Vincent Cordonnier<br data-v-ce08abda=\"\" data-v-fd4d5fea=\"\" data-v-4a2b4a8c=\"\">"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1429,7 +1446,8 @@
                                 "font": "",
                                 "size": "",
                                 "text": {
-                                    "fr_FR": "Lorem Ipsum"
+                                    "fr_FR": "Lorem Ipsum",
+                                    "fr": "Lorem Ipsum"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1500,35 +1518,136 @@
                         "lg": {
                             "cols": null,
                             "height": 0,
-                            "ignore": true
+                            "ignore": true,
+                            "unit": "%"
                         },
                         "md": {
-                            "cols": null,
+                            "cols": [
+                                {
+                                    "align": "1",
+                                    "width": "20",
+                                    "offset": "30",
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "align": "1",
+                                    "width": "20",
+                                    "offset": 0,
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ]
+                                }
+                            ],
                             "height": 0,
-                            "ignore": true
+                            "ignore": false,
+                            "unit": "%"
                         },
                         "sm": {
                             "cols": null,
                             "height": 0,
-                            "ignore": true
+                            "ignore": true,
+                            "unit": "%"
                         },
                         "xs": {
                             "cols": [
                                 {
                                     "align": "1",
-                                    "width": "50",
-                                    "offset": 0,
-                                    "borders": []
+                                    "width": "40",
+                                    "offset": "10",
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ]
                                 },
                                 {
                                     "align": "1",
-                                    "width": "50",
+                                    "width": "40",
                                     "offset": 0,
-                                    "borders": []
+                                    "borders": [
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        },
+                                        {
+                                            "color": "#000000",
+                                            "style": "solid",
+                                            "width": 0
+                                        }
+                                    ]
                                 }
                             ],
-                            "height": 2,
-                            "ignore": false
+                            "height": "40",
+                            "ignore": false,
+                            "unit": "px"
                         },
                         "count": 2,
                         "height": null
@@ -1545,7 +1664,7 @@
                                         "type": "none"
                                     },
                                     "tags": [],
-                                    "ratio": 10,
+                                    "ratio": 33,
                                     "hidden": false,
                                     "content": {
                                         "data": {
@@ -1554,14 +1673,14 @@
                                                 "fr_FR": "webeo"
                                             },
                                             "pos": {
+                                                "left": "0%",
                                                 "top": "0%",
-                                                "left": "47.92232480881861%",
-                                                "width": "20%",
+                                                "width": "100%",
                                                 "height": "100%"
                                             },
-                                            "url": "https://cdn.weweb.app/designs/19/sections/WQU1fkcl1A9RySRiVDqy4f80Z6vPGJlm.png",
-                                            "crop": "99.79696255989604px89.43231441048034p@0px6.949016124165476p",
-                                            "zoom": 0.2,
+                                            "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/2/sections/iHGaEpiRir7Wgmbb7t0vT92GmC8lp3Ya.png",
+                                            "crop": "99.48186528497409px80.99470688105463p@0px9.502646559472689p",
+                                            "zoom": 1,
                                             "hover": {
                                                 "name": "",
                                                 "options": {}
@@ -1587,8 +1706,8 @@
                                                 "w": 966
                                             },
                                             "position": {
-                                                "x": 39.61162404409303,
-                                                "y": -1.6651733294056519
+                                                "x": 0,
+                                                "y": 0
                                             },
                                             "animation": {
                                                 "fn": null,
@@ -1656,7 +1775,7 @@
                                         "type": "none"
                                     },
                                     "tags": [],
-                                    "ratio": 10,
+                                    "ratio": 33,
                                     "hidden": false,
                                     "content": {
                                         "data": {
@@ -1665,14 +1784,14 @@
                                                 "fr_FR": "webeo"
                                             },
                                             "pos": {
+                                                "left": "22.90309848036313%",
                                                 "top": "0%",
-                                                "left": "31.816546762589926%",
-                                                "width": "20%",
+                                                "width": "54.19380303927374%",
                                                 "height": "100%"
                                             },
                                             "url": "https://cdn.weweb.app/designs/19/sections/To0avkvibRram8dbUWyWaeUJUnTsn7X8.png",
-                                            "crop": "99.79696255989604px81.09820485744456p@0px11.2208090757025p",
-                                            "zoom": 0.2,
+                                            "crop": "53.913006132334495px53.35175317413328p@0px23.32412341293336p",
+                                            "zoom": 0.5419380303927374,
                                             "hover": {
                                                 "name": "",
                                                 "options": {}
@@ -1698,8 +1817,8 @@
                                                 "w": 1500
                                             },
                                             "position": {
-                                                "x": -40.91726618705035,
-                                                "y": -1.769911504424778
+                                                "x": 0,
+                                                "y": 0
                                             },
                                             "animation": {
                                                 "fn": null,
@@ -1761,7 +1880,14 @@
                 "type": "ww-columns"
             },
             "children": {},
-            "paddings": {},
+            "paddings": {
+                "xs": {
+                    "top": 20,
+                    "left": 0,
+                    "right": 0,
+                    "bottom": 0
+                }
+            },
             "uniqueId": 2355557124,
             "wwVersion": 3
         }
