@@ -28,16 +28,16 @@
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <!-- title here is banner -->
                     <div class="card-banner">
-                        <wwObject tag="div" class="background" :ww-object="card.banner" ww-default="ww-image"></wwObject>
+                        <wwObject tag="div" class="background-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject>
                         <wwObject tag="div" class="title-banner" :ww-object="card.title" ww-default="ww-text"></wwObject>
                     </div>
 
                     <div class="team-pic-container" :ww-list="card.teamPics">
-                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="teamPic in card.teamPics" :key="teamPic.uniqueId" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
 
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
-                        <wwObject tag="div" class="member-names" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
+                        <wwObject tag="div" class="member-names" v-for="teamName in card.teamNames" :key="teamName.uniqueId" :ww-object="teamName"></wwObject>
                     </wwLayoutColumn>
                 </div>
             </div>
@@ -52,14 +52,14 @@
                     <wwObject tag="div" class="card-background" :ww-object="card.background" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                     <!-- <wwObject tag="div" class="card-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject> -->
                     <div class="card-banner">
-                        <wwObject tag="div" class="background" :ww-object="card.banner" ww-default="ww-image"></wwObject>
+                        <wwObject tag="div" class="background-banner" :ww-object="card.banner" ww-default="ww-image"></wwObject>
                         <wwObject tag="div" class="title-banner" :ww-object="card.title" ww-default="ww-text"></wwObject>
                     </div>
                     <div class="team-pic-container" :ww-list="card.teamPics">
-                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in card.teamPics" :key="index" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="teamPic in card.teamPics" :key="teamPic.uniqueId" :ww-object="teamPic" @ww-add="addElement(card.teamPics, index)" @ww-remove="remove(card.teamPics, index)"></wwObject>
                     </div>
                     <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="card.teamNames" class="team-names" @ww-add="add(card.teamNames, $event)" @ww-remove="remove(card.teamNames, $event)">
-                        <wwObject tag="div" class="member-names" v-for="(teamName, index) in card.teamNames" :key="index" :ww-object="teamName"></wwObject>
+                        <wwObject tag="div" class="member-names" v-for="teamName in card.teamNames" :key="teamName.uniqueId" :ww-object="teamName"></wwObject>
                     </wwLayoutColumn>
                 </div>
             </div>
@@ -89,7 +89,7 @@
             <div class="section-bio">
                 <wwObject tag="div" class="team-bio-background" :ww-object="section.data.teamBioBackground" ww-category="background" ww-default-object-type="ww-color"></wwObject>
                 <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.teamBio" @ww-add="add(section.data.teamBio, $event)" @ww-remove="remove(section.data.teamBio, $event)">
-                    <wwObject v-for="(text, index) in section.data.teamBio" :key="index" :ww-object="text"></wwObject>
+                    <wwObject v-for="text in section.data.teamBio" :key="text.uniqueId" :ww-object="text"></wwObject>
                 </wwLayoutColumn>
             </div>
         </div>
@@ -340,22 +340,22 @@ export default {
 
 .team_A .card-banner {
     position: relative;
-    width: 90%;
-    height: 50px;
-    margin-bottom: 10%;
-    overflow: hidden;
+    width: 100%;
 }
 .team_A .curb_your_expectation {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
 .team_A .title-banner {
-    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, -50%);
 }
 .team_A .card {
     position: relative;
     width: 100%;
-    margin: 30px 15px;
     min-height: 50px;
     border-radius: 7px;
 }
@@ -447,7 +447,6 @@ export default {
     }
     .team_A .card-banner {
         width: 100%;
-        height: 30%;
         margin-bottom: 0;
     }
     .team_A .card {
